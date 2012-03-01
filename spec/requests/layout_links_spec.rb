@@ -29,4 +29,25 @@ describe "LayoutLinks" do
     get '/help'
     response.should have_selector('title', :content => "帮助")
   end
+  
+  it "should have a Sing up page at '/signup'" do
+    get '/signup'
+    response.should have_selector('title', :content => "注册")
+  end
+  
+  it "should have the right links on the layout" do
+    visit root_path 
+    response.should have_selector('title', :content => "首页")
+    click_link "关于"
+    response.should have_selector('title', :content => "关于")
+    click_link "联系"
+    response.should have_selector('title', :content => "联系")
+    click_link "帮助"
+    response.should have_selector('title', :content => "帮助")
+    click_link "首页"
+    response.should have_selector('title', :content => "首页")
+    click_link "注册"
+    response.should have_selector('title', :content => "注册")
+    response.should have_selector('a[href="/"]>img')
+  end
 end
