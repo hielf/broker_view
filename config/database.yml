@@ -12,7 +12,7 @@ development:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: tomato
+  database: radish
   pool: 5
   username: tomato
   password: wood123
@@ -25,7 +25,7 @@ test:
     adapter: mysql2
     encoding: utf8
     reconnect: false
-    database: tomato
+    database: potato
     pool: 5
     username: tomato
     password: wood123

@@ -11,10 +11,10 @@ describe PagesController do
     end
     
     it "returns the right title" do
-       get 'home'
-       response.should have_selector("title", 
-                                     :content => "营销人员综合管理 ｜ 首页")
-    end
+        get 'home'
+        response.should have_selector("title", 
+                                      :content => "首页")
+     end
     
     it "should have body text" do
       get 'home'
@@ -28,10 +28,10 @@ describe PagesController do
       response.should be_success
     end
     it "returns the right title" do
-       get 'contact'
-       response.should have_selector("title", 
-                                     :content => "营销人员综合管理 ｜ 联系")
-    end
+         get 'contact'
+         response.should have_selector("title", 
+                                       :content => "联系")
+      end
   end
   
   describe "GET 'about'" do
@@ -40,9 +40,9 @@ describe PagesController do
       response.should be_success
     end
     it "returns the right title" do
-       get 'about'
-       response.should have_selector("title", 
-                                     :content => "营销人员综合管理 ｜ 关于")
-    end
+          get 'about'
+          response.should have_selector("title", 
+                                        :content => "关于")
+       end
   end
 end
