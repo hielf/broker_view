@@ -44,7 +44,7 @@ gem 'jquery-rails'
 
 group :development do
   gem 'rspec-rails', '2.8.0'
-  gem 'annotated_models', '3.0.2'
+  gem 'annotate', '2.4.0'
 end
 
 group :test do
