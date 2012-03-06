@@ -105,17 +105,9 @@ describe User do
     it "should have a encrypted password attribute" do
       @user.should respond_to(:encrypted_password)
     end
+    
+    it "should set the encrypted password attribute" do
+      @user.encrypted_password.should_not be_blank 
+    end
   end
 end
-# == Schema Information
-#
-# Table name: users
-#
-#  id                 :integer(4)      not null, primary key
-#  name               :string(255)
-#  email              :string(255)
-#  created_at         :datetime
-#  updated_at         :datetime
-#  encrypted_password :string(255)
-#
-
