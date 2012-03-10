@@ -7,6 +7,7 @@ class UsersController < ApplicationController
   end
 
   def new
+    @user  = User.new
     @title = "注册"
   end
   
