@@ -1,4 +1,15 @@
-<h1>
-<%= @user.name %>
-</h1>
-<%= @user.email  %>
+<table class="profile" summary="个人资料">
+	<tr>
+	  	<td class="main">
+			<h1>
+			<%= @user.name %>
+			</h1>
+			<%= @user.email  %>
+		</td>
+		<td class="sidebar round">
+			<strong>姓名</strong><%= @user.name %><br />
+			<strong>URL</strong><%= link_to user_path(@user), @user %>
+		</td>
+	</tr>
+</table>
+
