@@ -43,7 +43,6 @@ describe UsersController do
   
   describe "GET 'new'" do
     
-    
     it "returns http success" do
       get :new
       response.should be_success
@@ -53,6 +52,58 @@ describe UsersController do
       get :new
       response.should have_selector("title", 
                                     :content => "注册")
+    end
+  end
+  
+  describe "POST 'create'" do
+    
+    describe "failure" do
+      
+      before(:each) do
+        @attr = { :name => "", :email => "", :password => "", 
+                   :password_confirmation => ""  }
+      end
+    
+      it "should have the right title" do
+         post :create, :user => @attr
+         response.should have_selector("title", :content => "注册" )
+      end  
+       
+      it "should render the new page" do
+         post :create, :user => @attr
+         response.should render_template('new' )
+      end
+      
+      it "should not create user" do
+         lambda do
+          post :create, :user => @attr
+         end.should_not change(User, :count)
+      end  
+    end
+    
+    describe "success" do
+      
+      before(:each) do
+        @attr = { :name => "新用户", :email => "t@abc.cn", :password => "123456", 
+                   :password_confirmation => "123456"  }
+      end      
+      
+      it "should create user" do
+        lambda do
+          post :create, :user => @attr
+        end.should change(User, :count).by 1
+      end
+      
+      it "should redirect to the show page" do
+        post :create, :user => @attr
+        response.should redirect_to(user_path(assigns(:user)))
+      end
+      
+      it "should have a welcome message" do
+        post :create, :user => @attr
+        flash[:success].should =~ /欢迎注册/i
+      end
+      
     end
   end
 end

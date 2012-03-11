@@ -1,0 +1,15 @@
+<% if @user.errors.any? %>
+	<div id="error_explanation">
+		<h2>
+			<!-- <%= pluralize(@user.errors.count, "警告") %> -->
+			<%= @user.errors.count %> 条警告 
+			无法保存用户:
+		</h2>
+		<p>由于以下原因:</p>
+		<ul>
+		<% @user.errors.full_messages.each do |message| %>
+			<li><%= message %></li>
+		<% end %>
+		</ul>
+	</div>
+<% end %>	
