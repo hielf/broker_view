@@ -35,6 +35,12 @@ describe "LayoutLinks" do
     response.should have_selector('title', :content => "注册")
   end
   
+  it "should have a Sing up page at '/signin'" do
+    get '/signin'
+    response.should have_selector('title', :content => "登录")
+  end
+  
+  
   it "should have the right links on the layout" do
     visit root_path 
     response.should have_selector('title', :content => "首页")
