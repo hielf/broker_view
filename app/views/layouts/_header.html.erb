@@ -2,8 +2,15 @@
 	<nav class="round">
 		<ul>
 			<li><%= link_to "首页", root_path %>
+			<% if signed_in? %>
+				<li><%= link_to "用户资料", current_user %>
+		 	<% end %>
 			<li><%= link_to "帮助", help_path %>
-			<li><%= link_to "登录", '#' %>
+			<% if signed_in? %>
+				<li><%= link_to "退出", signout_path %>
+			<% else %>
+				<li><%= link_to "登录", signin_path %>
+			<% end %>
 		</ul>
 	</nav>
 	<%= link_to logo, root_path %>
