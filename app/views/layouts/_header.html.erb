@@ -4,6 +4,7 @@
 			<li><%= link_to "首页", root_path %>
 			<% if signed_in? %>
 				<li><%= link_to "用户资料", current_user %>
+				<li><%= link_to "设置", edit_user_path(current_user) %>
 		 	<% end %>
 			<li><%= link_to "帮助", help_path %>
 			<% if signed_in? %>

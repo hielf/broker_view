@@ -1,710 +1,3 @@
-# Logfile created on 2012-03-02 00:58:29 +0800 by logger.rb/31641
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1023 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1045 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1046 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1047 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1048 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1049 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1050 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1051 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1073 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1095 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1117 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1139 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1161 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1183 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1205 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1227 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1249 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1271 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1293 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1315 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1337 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1434 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1476 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1500 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1650 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1701 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1727 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1753 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
 REQUESTING PAGE: GET / with {} and HTTP headers {}
 REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
 REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
@@ -714,286 +7,23 @@ REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
 REQUESTING PAGE: GET / with {} and HTTP headers {}
 REQUESTING PAGE: GET /signin with {} and HTTP headers {}
 REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1754 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET http://www.example.com/users/2098 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2098"}
 REQUESTING PAGE: GET /signin with {} and HTTP headers {}
 REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1755 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1756 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1756"}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1757 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1758 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1758"}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1759 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1785 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1785"}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1786 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET http://www.example.com/users/2099 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2099"}
 REQUESTING PAGE: GET /signup with {} and HTTP headers {}
 REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
 REQUESTING PAGE: GET /signup with {} and HTTP headers {}
 REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1787 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1788 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1788"}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1789 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1789"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1790 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1790"}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1791 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1791"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1794 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1794"}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1795 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1795"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1821 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1821"}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1822 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1822"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1823 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1824 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1825 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1851 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1851"}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1852 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1852"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1853 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1854 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1855 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"", "password"=>""}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1883 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"", "password"=>""}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1884 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1884"}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1885 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1885"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1911 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1911"}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1912 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1912"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1913 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"", "password"=>""}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1914 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1914"}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1915 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1915"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
-REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
-REQUESTING PAGE: GET / with {} and HTTP headers {}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1916 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1916"}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1917 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1917"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1918 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"", "password"=>""}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1920 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET http://www.example.com/users/2100 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
 REQUESTING PAGE: GET /signin with {} and HTTP headers {}
 REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"", "password"=>""}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
 REQUESTING PAGE: GET /signin with {} and HTTP headers {}
 REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1921 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1921"}
-REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET /signup with {} and HTTP headers {}
-REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1922 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"", "password"=>""}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET /signin with {} and HTTP headers {}
-REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1923 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1923"}
+REQUESTING PAGE: GET http://www.example.com/users/2101 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2101"}
 REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
 REQUESTING PAGE: GET / with {} and HTTP headers {}
 REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
@@ -1004,33 +34,489 @@ REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
 REQUESTING PAGE: GET / with {} and HTTP headers {}
 REQUESTING PAGE: GET /signin with {} and HTTP headers {}
 REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1949 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1949"}
+REQUESTING PAGE: GET http://www.example.com/users/2198 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2198"}
 REQUESTING PAGE: GET /signin with {} and HTTP headers {}
 REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1950 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1950"}
+REQUESTING PAGE: GET http://www.example.com/users/2199 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2199"}
 REQUESTING PAGE: GET /signup with {} and HTTP headers {}
 REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
 REQUESTING PAGE: GET /signup with {} and HTTP headers {}
 REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1951 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET http://www.example.com/users/2200 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
 REQUESTING PAGE: GET /signin with {} and HTTP headers {}
 REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"", "password"=>""}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
 REQUESTING PAGE: GET /signin with {} and HTTP headers {}
 REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1952 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1952"}
+REQUESTING PAGE: GET http://www.example.com/users/2201 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2201"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2240 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2240"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2241 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2241"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/2242 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"", "password"=>""}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2243 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2243"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2271 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2271"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2272 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2272"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/2273 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"", "password"=>""}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2274 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2274"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2313 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2313"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2314 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2314"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/2315 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"", "password"=>""}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2316 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2316"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2344 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2344"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2345 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2345"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"", "password"=>""}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2346 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2346"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"", "password"=>""}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2347 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2347"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2375 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2375"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2376 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2376"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"", "password"=>""}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2377 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2377"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"", "password"=>""}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2378 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2378"}
 REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
 REQUESTING PAGE: GET /signup with {} and HTTP headers {}
 REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
 REQUESTING PAGE: GET /signup with {} and HTTP headers {}
 REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
-REQUESTING PAGE: GET http://www.example.com/users/1953 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET http://www.example.com/users/2379 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
 REQUESTING PAGE: GET /signin with {} and HTTP headers {}
 REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"", "password"=>""}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
 REQUESTING PAGE: GET /signin with {} and HTTP headers {}
 REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
-REQUESTING PAGE: GET http://www.example.com/users/1954 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
-REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/1954"}
+REQUESTING PAGE: GET http://www.example.com/users/2380 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2380"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2408 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2408"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2409 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2409"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/2410 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"", "password"=>""}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2411 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2411"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2461 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2461"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2462 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2462"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/2463 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"", "password"=>""}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2464 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2464"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2465 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2465"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2466 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2466"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2467 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2467"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2468 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2468"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2469 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2469"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2470 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2470"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2498 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2498"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2499 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2499"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2500 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2500"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/2501 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"", "password"=>""}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2502 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2502"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2578 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2578"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2579 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2579"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2580 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2580"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/2581 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"", "password"=>""}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2582 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2582"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2651 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2651"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2652 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2652"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2653 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2653"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/2654 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"", "password"=>""}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2655 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2655"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2711 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2711"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2712 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2712"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2713 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2713"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/2714 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"", "password"=>""}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2715 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2715"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2842 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2842"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2843 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2843"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2844 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2844"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/2845 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"", "password"=>""}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2846 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2846"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2891 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2891"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2892 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2892"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2893 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2893"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/2894 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"", "password"=>""}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2895 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2895"}
+REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2971 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2971"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2972 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2972"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2973 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2973"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET /signup with {} and HTTP headers {}
+REQUESTING PAGE: POST /users with {"utf8"=>"✓", "user"=>{"name"=>"Test User", "email"=>"user@mail.com", "password"=>"aaaaaa", "password_confirmation"=>"aaaaaa"}, "commit"=>"注册"} and HTTP headers {"HTTP_REFERER"=>"/signup"}
+REQUESTING PAGE: GET http://www.example.com/users/2974 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"", "password"=>""}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET /signin with {} and HTTP headers {}
+REQUESTING PAGE: POST /sessions with {"utf8"=>"✓", "session"=>{"email"=>"mou_test@mail.com", "password"=>"passpass"}, "commit"=>"登录"} and HTTP headers {"HTTP_REFERER"=>"/signin"}
+REQUESTING PAGE: GET http://www.example.com/users/2975 with {} and HTTP headers {"HTTP_REFERER"=>"/sessions"}
+REQUESTING PAGE: GET /signout with {} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/users/2975"}
 REQUESTING PAGE: GET http://www.example.com/ with {} and HTTP headers {"HTTP_REFERER"=>"/signout"}
