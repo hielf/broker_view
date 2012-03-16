@@ -43,14 +43,14 @@ gem 'jquery-rails'
 #gem 'autotest-growl'
 
 group :development do
-  gem 'rspec-rails', '2.8.0'
+  gem 'rspec-rails', '2.8.1'
   # gem 'annotate', '2.4.0'
   gem 'annotate', '~> 2.4.1.beta'
 end
 
 group :test do
-  gem 'rspec', '2.8.0'
+  gem 'rspec-rails', '2.8.1'
   gem 'webrat', '0.7.3'
-  gem 'spork'
+  gem 'spork', '0.9.0'
   gem 'factory_girl_rails', '~> 1.7.0'
 end

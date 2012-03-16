@@ -111,78 +111,96 @@ describe UsersController do
     end
   end
   
-  describe "GET 'edit'" do
-    
-    before(:each) do
-      @user = Factory(:user)
-      test_sign_in(@user)
-      
-    end
-    
-    it "should be successful" do
-      get :edit, :id => @user
-      response.should be_success 
-    end
-    
-    it "should have the right title" do
-      get :edit, :id => @user
-      response.should have_selector('title', :content => "设置")
-    end
-    
-    # it "should have a link to edit gravatar" do
-    #    get :eidt, :id => @user
-    #    response.should have_selector('a', :href => 'http://gravatar.com/emails', 
-    #                                       :content => "change")
-    #  end
-  end
+   describe "GET 'edit'" do
+       
+       before(:each) do
+         @user = Factory(:user)
+         test_sign_in(@user)
+       end
+       
+       it "should be successful" do
+         get :edit, :id => @user
+         response.should be_success 
+       end
+       
+       it "should have the right title" do
+         get :edit, :id => @user
+         response.should have_selector('title', :content => "设置")
+       end
+       
+       # it "should have a link to edit gravatar" do
+       #    get :eidt, :id => @user
+       #    response.should have_selector('a', :href => 'http://gravatar.com/emails', 
+       #                                       :content => "change")
+       #  end
+     end
 
-  describe "PUT 'update'" do
-    
-    before(:each) do
-      @user = Factory(:user)
-      test_sign_in(@user)
-    end
-    
-    describe "failure" do
+   describe "PUT 'update'" do
+       
+       before(:each) do
+         @user = Factory(:user)
+         test_sign_in(@user)
+       end
+       
+       describe "failure" do
+         
+         before(:each) do
+           @attr = { :name => "", :email => "", :password => "", 
+                      :password_confirmation => ""  }
+         end 
+         
+         it "should render the 'edit' page" do
+           put :update, :id => @user, :user => @attr
+           response.should render_template('edit')
+         end
+         
+         it "should have the right title" do
+           put :update, :id => @user, :user => @attr
+           response.should have_selector('title', :content => "设置")
+         end
+         
+       end
+       
+       describe "success" do
+         before(:each) do
+           @attr = { :name => "新用户", :email => "new_mail@test.org", 
+                     :password => "654321", :password_confirmation => "654321" }
+         end
+         
+         it "should change user's attributes" do
+           put :update, :id => @user, :user => @attr
+           user = assigns(:user)
+           @user.reload #重要
+           @user.name.should == user.name
+           @user.email.should == user.email
+           @user.encrypted_password.should == user.encrypted_password
+         end
+         
+         it "should have a flash message" do
+          put :update, :id => @user, :user => @attr
+          flash[:success].should =~ /成功/
+         end
+         
+       end
+     end
+  
+    describe "authentication of edit/update actions" do
       
       before(:each) do
-        @attr = { :name => "", :email => "", :password => "", 
-                   :password_confirmation => ""  }
-      end 
-      
-      it "should render the 'edit' page" do
-        put :update, :id => @user, :user => @attr
-        response.should render_template('edit')
+        @user = Factory(:user)
+        # test_sign_in(@user)
       end
       
-      it "should have the right title" do
-        put :update, :id => @user, :user => @attr
-        response.should have_selector('title', :content => "设置")
+      it "should deny access to 'edit'" do
+        get :edit, :id => @user
+        response.should redirect_to(signin_path)
+        flash[:notice].should =~ /登录/i
       end
       
+      it "should deny access to 'update'" do
+        put :edit, :id => @user, :user => {}
+        response.should redirect_to(signin_path)
+      end
     end
-    
-    describe "success" do
-      before(:each) do
-        @attr = { :name => "新用户", :email => "new_mail@test.org", 
-                  :password => "654321", :password_confirmation => "654321" }
-      end
-      
-      it "should change user's attributes" do
-        put :update, :id => @user, :user => @attr
-        user = assigns(:user)
-        @user.reload #重要
-        @user.name.should == user.name
-        @user.email.should == user.email
-        @user.encrypted_password.should == user.encrypted_password
-      end
-      
-      it "should have a flash message" do
-       put :update, :id => @user, :user => @attr
-       flash[:success].should =~ /成功/
-      end
-      
-    end
-    
-  end
+  
 end

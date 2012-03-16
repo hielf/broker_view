@@ -1,5 +1,6 @@
 # encoding: utf-8
 class UsersController < ApplicationController
+  before_filter :authenticate, :only => [:index, :edit, :update, :destroy]
 
   def show
     @user  = User.find(params[:id])
@@ -37,6 +38,12 @@ class UsersController < ApplicationController
       @title = "用户设置"
       render 'edit'
     end 
-    
   end
+  
+  private 
+  
+    def authenticate
+      deny_access unless signed_in?
+    end
+  
 end
