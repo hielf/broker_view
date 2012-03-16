@@ -1,6 +1,7 @@
 # encoding: utf-8
 class UsersController < ApplicationController
   before_filter :authenticate, :only => [:index, :edit, :update, :destroy]
+  before_filter :correct_user, :only => [:edit, :update]
 
   def show
     @user  = User.find(params[:id])
@@ -25,6 +26,7 @@ class UsersController < ApplicationController
   end
 
   def edit
+    # raise request.inspect
     @user  = User.find(params[:id])
     @title = "用户设置"
     
@@ -46,4 +48,8 @@ class UsersController < ApplicationController
       deny_access unless signed_in?
     end
   
+    def correct_user
+      @user = User.find(params[:id])
+      redirect_to(root_path) unless current_user?(@user)
+    end
 end
