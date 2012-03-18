@@ -4,6 +4,58 @@ require 'spec_helper'
 describe UsersController do
   render_views
   
+  describe "GET 'index'" do
+ 
+    describe "for non-signed-in users" do
+      it "should deny access" do
+        get :index
+        response.should redirect_to(signin_path) 
+      end
+    end
+    
+    describe "for signed-in users" do
+      
+      before(:each) do
+        test_sign_in(Factory(:user))
+        Factory(:user, :email => "seconduser@test.org") 
+        Factory(:user, :email => "seconduser@test.com")
+        
+        30.times do
+           Factory(:user, :name => Factory.next(:name),
+                   :email => Factory.next(:email))
+        end
+      end
+      
+      it "should be success" do
+        get :index
+        response.should be_success
+      end
+      
+      it "should have the right title" do
+        get :index
+        response.should have_selector('title', :content => "用户")
+      end
+      
+      it "should have an element for each user" do
+        get :index
+        User.paginate(:page => 1).each do |user|
+          response.should have_selector('li', :content => user.name)
+        end
+      end
+      
+      it "should paginate users" do
+        get :index
+        response.should have_selector('div.pagination')
+        response.should have_selector('span.disabled', :content => "上一页")
+        response.should have_selector('a', :href => "/users?page=2",
+                                           :content => "2")
+        response.should have_selector('a', :href => "/users?page=2", 
+                                           :content => "下一页")
+                                            
+      end     
+    end
+  end
+  
   describe "GET 'show'" do
     before(:each) do
       @user = Factory(:user)

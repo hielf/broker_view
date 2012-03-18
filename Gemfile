@@ -17,6 +17,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+gem 'will_paginate', '~> 3.0.3'
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
@@ -46,6 +47,7 @@ group :development do
   gem 'rspec-rails', '2.8.1'
   # gem 'annotate', '2.4.0'
   gem 'annotate', '~> 2.4.1.beta'
+  gem 'faker', '1.0.1'
 end
 
 group :test do
