@@ -19,7 +19,9 @@ group :assets do
 end
 
 gem 'will_paginate', '~> 3.0.3'
+gem 'bootstrap-will_paginate', '~> 0.0.6'
 gem 'jquery-rails'
+gem 'simple_form'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

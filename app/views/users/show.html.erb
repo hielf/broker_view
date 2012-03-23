@@ -1,15 +1,17 @@
-<table class="profile" summary="个人资料">
-	<tr>
-	  	<td class="main">
-			<h1>
-			<%= @user.name %>
-			</h1>
-			<%= @user.email  %>
-		</td>
-		<td class="sidebar round">
-			<strong>姓名</strong><%= @user.name %><br />
-			<strong>URL</strong><%= link_to user_path(@user), @user %>
-		</td>
-	</tr>
-</table>
-
+<div class="tabbable">
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#1" data-toggle="tab">用户资料</a></li>
+    <li><a href="#2" data-toggle="tab">其他信息</a></li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane active" id="1">
+	  <div class="hero-unit">
+	  	<h1><%= @user.name %></h1>
+		<p><%= @user.email %></p>
+	  </div>
+    </div>
+    <div class="tab-pane" id="2">
+      <p>这里是其他资料</p>
+    </div>
+  </div>
+</div>
