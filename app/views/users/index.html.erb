@@ -1,17 +1,16 @@
-<div class="hero-unit">
+<div class="page-header">
 	<h1>用户</h1>
-
-	<%= will_paginate @users, previous_label: h("<"), next_label: h(">") %>
-
-	<table class="table table-striped">
-	  <tbody>
-		<%= render @users %>
-	  </tbody>
-	</table>
-
-    <%= will_paginate @users, previous_label: h("<"), next_label: h(">") %>
-
 </div>
+<%= will_paginate @users, previous_label: h("<"), next_label: h(">") %>
+
+<table class="table table-striped">
+  <tbody>
+	<%= render @users %>
+  </tbody>
+</table>
+
+<%= will_paginate @users, previous_label: h("<"), next_label: h(">") %>
+
 <!-- also -->
 <!-- @users.each do |user|
 	render user

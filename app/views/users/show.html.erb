@@ -1,14 +1,12 @@
-<div class="tabbable">
+<div class="tabbable tabs">
   <ul class="nav nav-tabs">
     <li class="active"><a href="#1" data-toggle="tab">用户资料</a></li>
     <li><a href="#2" data-toggle="tab">其他信息</a></li>
   </ul>
   <div class="tab-content">
     <div class="tab-pane active" id="1">
-	  <div class="hero-unit">
-	  	<h1><%= @user.name %></h1>
+	  	<h2><%= @user.name %></h2>
 		<p><%= @user.email %></p>
-	  </div>
     </div>
     <div class="tab-pane" id="2">
       <p>这里是其他资料</p>
