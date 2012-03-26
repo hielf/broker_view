@@ -21,7 +21,7 @@ describe UsersController do
         Factory(:user, :email => "seconduser@test.org") 
         Factory(:user, :email => "seconduser@test.com")
         
-        30.times do
+        20.times do
            Factory(:user, :name => Factory.next(:name),
                    :email => Factory.next(:email))
         end
@@ -39,19 +39,19 @@ describe UsersController do
       
       it "should have an element for each user" do
         get :index
-        User.paginate(:page => 1).each do |user|
-          response.should have_selector('li', :content => user.name)
+        User.order("name").paginate(:page => 1).per_page(20).each do |user|
+          response.should have_selector('td', :content => user.name)
         end
       end
       
       it "should paginate users" do
         get :index
         response.should have_selector('div.pagination')
-        response.should have_selector('span.disabled', :content => "上一页")
+        response.should have_selector('li.prev', :content => "<")
         response.should have_selector('a', :href => "/users?page=2",
-                                           :content => "2")
+                                                    :content => "2")
         response.should have_selector('a', :href => "/users?page=2", 
-                                           :content => "下一页")                    
+                                                    :content => ">")                    
       end     
       
       it "should have a delete link for admins" do
@@ -93,7 +93,7 @@ describe UsersController do
     
     it "should have the user's name" do
       get :show, :id => @user
-      response.should have_selector('h1', :content => @user.name)
+      response.should have_selector('h2', :content => @user.name)
     end
     
     # it "should have a profile image" do
@@ -101,11 +101,11 @@ describe UsersController do
     #   response.should have_selector('h1>img', :class => "proflie_image")
     # end
     
-    it "should have the right URL" do
-      get :show, :id => @user
-      response.should have_selector('td>a', :content => user_path(@user),
-                                            :href    => user_path(@user))
-    end
+    # it "should have the right URL" do
+    #   get :show, :id => @user
+    #   response.should have_selector('td>a', :content => user_path(@user),
+    #                                         :href    => user_path(@user))
+    # end
   end
   
   describe "GET 'new'" do

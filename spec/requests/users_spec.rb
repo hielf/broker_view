@@ -15,7 +15,7 @@ describe "Users" do
           fill_in "确认",           :with => ""
           click_button
           response.should render_template('users/new') 
-          response.should have_selector('div#error_explanation')         
+          response.should have_selector('span.help-inline')         
         end.should_not change(User, :count)
       end
     end
@@ -29,7 +29,7 @@ describe "Users" do
           fill_in "密码",           :with => "aaaaaa"
           fill_in "确认",           :with => "aaaaaa"
           click_button
-          response.should have_selector('div.flash.success', :content => "欢迎")
+          response.should have_selector('div.alert.alert-success', :content => "欢迎")
           response.should render_template('users/show') 
         end.should change(User, :count).by(1)
       end
@@ -46,7 +46,7 @@ describe "Users" do
         fill_in "Email",        :with => ""
         fill_in "密码",           :with => ""
         click_button
-        response.should have_selector('div.flash.error', :content => "错误")
+        response.should have_selector('div.alert.alert-error', :content => "错误")
         response.should render_template('sessions/new')
       end
     end

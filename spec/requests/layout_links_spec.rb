@@ -54,7 +54,8 @@ describe "LayoutLinks" do
     response.should have_selector('title', :content => "首页")
     click_link "注册"
     response.should have_selector('title', :content => "注册")
-    response.should have_selector('a[href="/"]>img')
+    response.should have_selector('a>img')
+    # response.should have_selector('a[href="/"]>img')
   end
   
   describe "when not signed in" do
