@@ -12,3 +12,8 @@ end
 Factory.sequence :name do |n|
   "Person #{n}"
 end
+
+Factory.define :branch do |branch|
+  branch.code       "0000"
+  branch.name       "user_branch"
+end
