@@ -2,6 +2,8 @@ Htbroker::Application.routes.draw do
 
   resources :users
   resources :sessions, :only => [:new, :create, :destroy]
+  resources :branches, :only => [:index, :show] 
+  resources :departments, :only => [:index, :show] 
 
   root :to => 'pages#home'
 

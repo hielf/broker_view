@@ -1,0 +1,19 @@
+<h1>Listing branches</h1>
+
+<table>
+  <tr>
+    <th>营业部代码</th>
+    <th>营业部名称</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @branches.each do |branch| %>
+  <tr>
+    <td><%= branch.code %></td>
+    <td><%= branch.name %></td>
+  </tr>
+<% end %>
+</table>
+

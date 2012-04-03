@@ -11,9 +11,19 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120328162244) do
+ActiveRecord::Schema.define(:version => 20120402150828) do
 
   create_table "branches", :force => true do |t|
+    t.string   "code"
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "department_id"
+  end
+
+  add_index "branches", ["department_id"], :name => "index_branches_on_department_id"
+
+  create_table "departments", :force => true do |t|
     t.string   "code"
     t.string   "name"
     t.datetime "created_at"

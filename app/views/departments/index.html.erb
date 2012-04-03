@@ -1,0 +1,20 @@
+<h1>Listing departments</h1>
+
+<table>
+  <tr>
+    <th>分公司代码</th>
+    <th>分公司名称</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+	<% @departments.each do |department| %>
+	  <tr>
+	    <td><%= department.code %></td>
+	    <td><%= department.name %></td>
+	  </tr>
+	<% end %>
+
+</table>
+

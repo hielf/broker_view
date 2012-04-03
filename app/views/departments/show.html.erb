@@ -1,0 +1,33 @@
+<div class="btn-group">
+  <button class="btn btn-large">下级营业部</button>
+  <button class="btn btn-large dropdown-toggle" data-toggle="dropdown">
+	  
+	<span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <% @branches.each do |branch| %>
+	<li><%= link_to branch.code, "#" %></li>
+	<% end %>
+  </ul>
+</div>
+
+<p>
+  <b>分公司代码:</b>
+  <%= @department.code %>
+</p>
+
+<p>
+  <b>分公司名称:</b>
+  <%= @department.name %>
+</p>
+
+<p>
+  <b>下级营业部:</b>
+  <% @branches.each do |branch| %>
+  <tr>
+    <td><%= branch.code %></td>
+    <td><%= branch.name %></td>
+  </tr>
+  <% end %>
+</p>
+
