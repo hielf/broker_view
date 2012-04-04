@@ -16,10 +16,10 @@ class DepartmentsController < ApplicationController
     @title  = @department.name
     @branches = @department.branches
     
-    # respond_to do |format|
-    #   format.html # show.html.erb
-    #   format.json { render json: @department }
-    # end
+    respond_to do |format|
+      format.html # show.html.erb
+      format.json { render json: @department }
+    end
   end
   
 end

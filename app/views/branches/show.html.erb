@@ -1,11 +1,15 @@
-
-<p>
-  <b>营业部代码:</b>
-  <%= @branch.code %>
-</p>
-
-<p>
-  <b>营业部名称:</b>
-  <%= @branch.name %>
-</p>
-
+<div class="span3">
+	<div class="well sidebar-nav">
+		<ul class="nav nav-list">
+		  <li class="nav-header">选择分公司</li>
+		  <% @branches.each do |branch| %>
+		  <li><%= link_to branch.code+" "+branch.name, branch_path %></li>
+		  <% end %>
+		</ul>
+	</div>
+</div>
+<div class="span9">
+	<div class="hero-unit">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</div>
+</div>

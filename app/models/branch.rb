@@ -15,4 +15,15 @@ class Branch < ActiveRecord::Base
   belongs_to :department
   
   default_scope   :order => 'branches.code' 
+  
+  # scope :from_sub_branches, lambda { |user| followed_by(user) }
+  # 
+  # private
+  # 
+  #   def self.sub_branches(department)
+  #     sub_branches_ids = %(SELECT followed_id FROM relationships
+  #                       WHERE follower_id = :user_id)
+  #     where("user_id IN (#{following_ids}) OR user_id = :user_id",
+  #           :user_id => user)
+  #   end
 end

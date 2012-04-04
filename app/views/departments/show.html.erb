@@ -1,33 +1,13 @@
-<div class="btn-group">
-  <button class="btn btn-large">下级营业部</button>
-  <button class="btn btn-large dropdown-toggle" data-toggle="dropdown">
-	  
-	<span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu">
-    <% @branches.each do |branch| %>
-	<li><%= link_to branch.code, "#" %></li>
-	<% end %>
-  </ul>
+<div class="span3">
+	<div class="well sidebar-nav">
+		<ul class="nav nav-list">
+		  <li class="nav-header"><%= @department.name %></li>
+			<%= render :partial => 'branches/branch', :collection => @branches %>
+		</ul>
+	</div>
 </div>
-
-<p>
-  <b>分公司代码:</b>
-  <%= @department.code %>
-</p>
-
-<p>
-  <b>分公司名称:</b>
-  <%= @department.name %>
-</p>
-
-<p>
-  <b>下级营业部:</b>
-  <% @branches.each do |branch| %>
-  <tr>
-    <td><%= branch.code %></td>
-    <td><%= branch.name %></td>
-  </tr>
-  <% end %>
-</p>
-
+<div class="span9">
+	<div class="hero-unit">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</div>
+</div>

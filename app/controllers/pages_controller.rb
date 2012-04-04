@@ -2,6 +2,9 @@
 class PagesController < ApplicationController
   def home
     @title = "首页"
+    if signed_in?
+      @title = "首页"
+    end
   end
 
   def contact
@@ -13,6 +16,6 @@ class PagesController < ApplicationController
   end
   
   def help
-    @title ="帮助"
+    @title = "帮助"
   end
 end
