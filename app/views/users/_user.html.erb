@@ -3,7 +3,8 @@
 	<td><%= link_to user.email, user_path(user) %></td>
 	<% if current_user.admin? %>
 	<td>
-		<%= link_to '删除', user_path(user), :method => :delete, :confirm => 'Are you sure?', :class => 'btn btn-mini btn-danger' %>
+		<%= link_to "删除", user_path(user), :method => :delete, :confirm => '确认删除该用户?', 
+										   :class => 'btn btn-mini btn-danger' %>
 	</td>
 	<% end %>
 </tr>
