@@ -13,7 +13,7 @@ class SessionsController < ApplicationController
       render 'new'
     else
       sign_in user
-      redirect_back_or user #friendly redirect
+      redirect_back_or departments_path #user #friendly redirect
     end
   end
   
