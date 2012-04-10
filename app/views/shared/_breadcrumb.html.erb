@@ -1,0 +1,36 @@
+<ul class="breadcrumb">
+<% if @title == "选择分公司" %>
+  <li>
+    <%= link_to "", departments_path, :class => "icon-home" %>
+	<span class="divider">|</span>
+  </li>
+<% elsif !@department.nil? && @title == @department.name %>
+  <li>
+    <%= link_to "", departments_path, :class => "icon-home" %>
+	<span class="divider">|</span>
+  </li>
+  <li>
+	<li class="active"><%= @department.name %></li>
+	<!-- <span class="divider">|</span> -->
+  </li>
+<% elsif !@branch.nil? && @title == @branch.name %>
+  <li>
+    <%= link_to "", departments_path, :class => "icon-home" %>
+	<span class="divider">|</span>
+  </li>
+  <li>
+    <%= link_to @father_department.name, @father_department, :class => "active" %>
+	<span class="divider">|</span>
+  </li>
+  <li>
+	<li class="active"><%= @branch.name %></li>
+	<!-- <span class="divider">|</span> -->
+  </li>
+<% else %>
+  <li>
+    <%= link_to "", departments_path, :class => "icon-home" %>
+	<span class="divider">|</span>
+	<li class="active"><%= @title %></li>
+  </li>
+<% end %>
+</ul>

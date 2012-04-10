@@ -12,8 +12,9 @@ class BranchesController < ApplicationController
   end
 
   def show
-    @branch = Branch.find(params[:id])
-    @title  = @branch.name
+    @branch     = Branch.find(params[:id])
+    @title      = @branch.name
+    @father_department = @branch.department
     
     respond_to do |format|
       format.html # show.html.erb

@@ -1,15 +1,15 @@
 <div class="span3">
-	<div class="well sidebar-nav">
-		<ul class="nav nav-list">
-		  <li class="nav-header">选择分公司</li>
-		  <% @branches.each do |branch| %>
-		  <li><%= link_to branch.code+" "+branch.name, branch_path %></li>
-		  <% end %>
+	<div class="sidebar-nav">
+		<ul class="nav nav-list well">
+		  <li class="nav-header"><%= @branch.name %></li>
+			<%= render :partial => 'branches/branch', :collection => @branches %>
+		  <li class="divider"></li>
 		</ul>
 	</div>
 </div>
 <div class="span9">
 	<div class="hero-unit">
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	    <p>公司拥有一支专业化的营销团队，分布于全国20家分公司，198家证券营业部，立足于金融创新，以开发并销售创新类金融产品和提供一揽子金融解决方案为主要目标，
+		致力于满足客户在投资理财、资产配置、并购融资、税务筹划等各方面的金融需求，提供快速专业的咨询服务和产品服务。</p>
 	</div>
 </div>
