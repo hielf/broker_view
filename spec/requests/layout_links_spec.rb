@@ -58,6 +58,11 @@ describe "LayoutLinks" do
     # response.should have_selector('a[href="/"]>img')
   end
   
+  it "should have a breadcrumb bar links on the layout" do
+    visit root_path
+    response.should have_selector("a", :href => departments_path )
+  end
+  
   describe "when not signed in" do
     it "should have a sign in link" do
       visit root_path

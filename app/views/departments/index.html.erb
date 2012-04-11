@@ -1,16 +1,37 @@
-<div class="span3">
+<div class="span2">
 	<div class="sidebar-nav">
 		<ul class="nav nav-list well">
-		  <li class="nav-header">选择分公司</li>
+		  <li class="nav-header">
+			<i class="icon-list"></i>
+			选择分公司
+		  </li>
 			<%= render @departments %>
 		  <li class="divider"></li>
 		</ul>
 	</div>
 </div>
-<div class="span9">
+<div class="span10">
 	<div class="hero-unit">
-		<p>A证券公司创建于1988年，随着中国资本市场的大跨步前进，公司也不断发展和壮大，逐步成长为国内证券行业的翘楚。公司前身为“上海A证券公司”，于1994年改制为有限责任公司，
-		并发展成全国性的证券公司。2001年底，公司整体改制为股份有限公司。在二十几年的发展过程中，公司始终保持着稳健的经营理念，取得了行业内领先的地位。
-		公司也由成立之初的13名员工发展到现在的由91名博士、1175名硕士和6000名学士等共近万名员工组成的国内一流的证券公司。公司客户总数达到300万。</p>
+		<%= render 'departments/indexview' %>
+	</div>
+</div>
+<div class="span5">
+	<div class="well">
+		<p>营销团队82个，其中全日制营销团队55个，证券经纪人营销团队27个</p>
+	</div>
+</div>
+<div class="span5">
+	<div class="well">
+		<p>营销人员6801人，其中证券经纪人3253人，营销经理527人，全日营销经理2247人</p>
+	</div>
+</div>
+<div class="span5">
+	<div class="well">
+		<p>公司当前有分公司15家，直属营业部34家，共计营业部202家</p>
+	</div>
+</div>
+<div class="span5">
+	<div class="well">
+		<p>本月新增客户数95315人，其中营销团队客户数20532人，渠道客户数7428人，营业自主开发客户数67123人</p>
 	</div>
 </div>
