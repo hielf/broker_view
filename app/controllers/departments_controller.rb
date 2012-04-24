@@ -10,10 +10,10 @@ class DepartmentsController < ApplicationController
     @branch_num = @branches.count.to_i
     @direct_branch_num = Department.find_by_code(0000).branches.count.to_i
     
-    respond_to do |format|
-      format.html # show.html.erb
-      format.json { render json: @departments }
-    end
+    # respond_to do |format|
+    #   format.html # show.html.erb
+    #   format.json { render json: @departments }
+    # end
   end
 
   def show
@@ -21,10 +21,10 @@ class DepartmentsController < ApplicationController
     @title  = @department.name
     @branches = @department.branches
     
-    respond_to do |format|
-      format.html # show.html.erb
-      format.json { render json: @department }
-    end
+    # respond_to do |format|
+    #   format.html # show.html.erb
+    #   format.json { render json: @department }
+    # end
   end
   
 end

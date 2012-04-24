@@ -12,6 +12,7 @@
 class Department < ActiveRecord::Base
   attr_accessible :code, :name
   has_many :branches
+  has_many :deptindices
   
   default_scope   :order => 'departments.code'
 end

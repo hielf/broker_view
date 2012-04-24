@@ -23,6 +23,9 @@ gem 'bootstrap-will_paginate', '~> 0.0.6'
 gem 'jquery-rails'
 gem 'simple_form'
 gem 'lazy_high_charts', '~> 1.1.5'
+gem 'rabl'
+gem 'yajl-ruby', :require => "yajl"
+gem 'gon'
 # gem 'simple-navigation'
 
 # To use ActiveModel has_secure_password

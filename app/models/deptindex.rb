@@ -18,16 +18,18 @@ class Deptindex < ActiveRecord::Base
   scope :matchbalance, where(:indextype => 1001)
   scope :commis, where(:indextype => 1002)
   
-  private 
+  default_scope   :order => 'deptindices.month_id'
   
-  def self.total_sum(dept, month)
-    where("month_id = :month AND department_id = :dept", :month => month, 
-                                                         :dept => dept).sum(:occursum)
-  end
-  
-  def self.total_on(month)
-    where("month_id = ?", month).sum(:occursum)
-  end
+  # private 
+  # 
+  # def self.total_sum(dept, month)
+  #   where("month_id = :month AND department_id = :dept", :month => month, 
+  #                                                        :dept => dept).sum(:occursum)
+  # end
+  # 
+  # def self.total_on(month)
+  #   where("month_id = ?", month).sum(:occursum)
+  # end
   
 end
 
