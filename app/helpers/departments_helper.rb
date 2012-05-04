@@ -6,7 +6,7 @@ module DepartmentsHelper
       @timeperiod = "凌晨"
     elsif @timepassed >= 5 && @timepassed < 12
       @timepassed = "上午"
-    elsif @timepassed >= 12 && @timepassed < 17
+    elsif @timepassed >= 12 && @timepassed < 18
       @timepassed = "下午"
     elsif @timepassed >= 17 && @timepassed <= 24
       @timepassed = "晚上"

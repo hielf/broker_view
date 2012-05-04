@@ -22,6 +22,12 @@
 		<script type="text/javascript" charset="utf-8">
 			var chart;
 			$(document).ready(function()  {
+				Highcharts.setOptions({
+					lang: {
+							months: ['一月', '二月', '三月', '四月', '五月', '六月', 
+								'七月', '八月', '九月', '十月', '十一月', '十二月']
+					}
+				});
 				new Highcharts.Chart({
 					chart: {
 						renderTo: "chart_1",
@@ -32,9 +38,8 @@
 					},
 					xAxis: {
 						type: 'datetime',
-							dateTimeLabelFormats: { // don't display the dummy year
-								month: '%e. %b',
-								year: '%b'}
+						dateTimeLabelFormats: { 
+								month: '%b \'%y'}
 						// categories: ['201101', '201105', '201112',  '201204']
 						// tickmarkPlacement: 'on',
 						// 			title: {
@@ -43,7 +48,7 @@
 					},
 					yAxis: {
 						title: {
-							text: ""
+							text: "单位：亿"
 						},
 						min: 0,
 						labels: {
@@ -62,13 +67,13 @@
 						enabled: false
 					},
 					series: [
-					<% { "总成交量" => Deptindex.matchbalance }.each do	|name, dept| %>
+					<% { "总成交量" => Deptindex.matchbalance, "总净佣金" => Deptindex.commis }.each do |name, dept| %>
 					{
 						name: "<%= name %>",
 						pointInterval: <%= 1.month.to_i * 1000 %>,
-					    pointStart: <%= 1.year.ago.beginning_of_year.to_i * 1000 %>,
-						// data: [ 1, 5, 6, 3, 7, 4, 8, 5, 12, 2, 7, 5, 4]
+						pointStart: <%= 1.year.ago.beginning_of_year.to_i * 1000 %>,
 						data: <%= dept_chart_series(dept) %>
+						// data: [['201101',5],['201102',7],['201103',4],['201104',5],['201105',8],['201106',3]]
 					}
 					<% end %>]
 				})

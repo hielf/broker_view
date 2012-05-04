@@ -12,4 +12,8 @@ module DeptindicesHelper
       sum && sum.total_match_balance.to_f || 0
     end
   end
+  
+  def getdeptindex(dept, type)
+    @deptindex = Deptindex.find_by_sql ["SELECT a.* FROM deptindices a WHERE department_id = ? and indextype = ?", dept, type]
+  end
 end

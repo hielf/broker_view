@@ -3,6 +3,7 @@
   <li>
     <%= link_to "", departments_path, :class => "icon-home" %>
 	<span class="divider">></span>
+	<li class="active"><%= @title %></li>
   </li>
 <% elsif !@department.nil? && @title == @department.name %>
   <li>
