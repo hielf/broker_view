@@ -9,11 +9,7 @@ class DepartmentsController < ApplicationController
     @branches = Branch.all
     @branch_num = @branches.count.to_i
     @direct_branch_num = Department.find_by_code(0000).branches.count.to_i
-    # 
-    # @deptmatchbalance =  getdeptindex(params[:department_id], 1001)
-    # 
-    # gon.rabl 'app/views/deptindices/index.json.rabl', as: "deptindex"
-    
+
     # respond_to do |format|
     #   format.html # show.html.erb
     #   format.json { render json: @departments }

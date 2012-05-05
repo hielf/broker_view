@@ -1,6 +1,6 @@
 module DeptindicesHelper
-  def dept_chart_series(dept)
-    matchbalance_by_month = Deptindex.where(:month_id => 1.years.ago.to_date.at_beginning_of_year().strftime("%Y%m")..Time.now.beginning_of_month.strftime("%Y%m") ).select("month_id, occursum as total_match_balance")
+  def dept_chart_series(deptindices, dept)
+    deptindex_by_month = deptindices.where(:month_id => 1.years.ago.to_date.at_beginning_of_year().strftime("%Y%m")..Time.now.beginning_of_month.strftime("%Y%m") ).select("month_id, occursum")
     now = Time.now
     lastyear = Time.now.prev_year.beginning_of_year.prev_month
   # (1.years.ago.to_date.at_beginning_of_year().strftime("%Y%m")..Time.now.beginning_of_month.strftime("%Y%m")).map do |month|
@@ -8,8 +8,8 @@ module DeptindicesHelper
   (now.month + 12).times.map do
     lastyear = lastyear.next_month
     month = lastyear.strftime("%Y%m").to_s
-      sum = matchbalance_by_month.detect { |sum| sum.month_id == month }
-      sum && sum.total_match_balance.to_f || 0
+      sum = deptindex_by_month.detect { |sum| sum.month_id == month }
+      sum && sum.occursum.to_f || 0
     end
   end
   
