@@ -37,14 +37,15 @@
 						text: "全公司收入"
 					},
 					xAxis: {
-						type: 'datetime',
-						dateTimeLabelFormats: { 
-								month: '%b \'%y'}
-						// categories: ['201101', '201105', '201112',  '201204']
+						// type: 'datetime',
+						// dateTimeLabelFormats: { 
+						// 		month: '%b \'%y'}
+						categories: <%= month_series %>,
 						// tickmarkPlacement: 'on',
 						// 			title: {
 						// 				enabled: false
 						// 			}
+						tickInterval: 3
 					},
 					yAxis: {
 						title: {
@@ -70,8 +71,8 @@
 					<% { "总成交量" => Deptindex.matchbalance, "总净佣金" => Deptindex.commis }.each do |name, deptindices| %>
 					{
 						name: "<%= name %>",
-						pointInterval: <%= 1.month.to_i * 1000 %>,
-						pointStart: <%= 1.year.ago.beginning_of_year.to_i * 1000 %>,
+						// pointInterval: <%= 1.month.to_i * 1000 %>,
+						// pointStart: <%= 1.year.ago.beginning_of_year.to_i * 1000 %>,
 						data: <%= dept_chart_series(deptindices, Department.find_by_code(0000).id) %>
 						// data: [['201101',5],['201102',7],['201103',4],['201104',5],['201105',8],['201106',3]]
 					},
