@@ -22,7 +22,7 @@ module DeptindicesHelper
     end
   end
   
-  def getdeptindex(dept, type)
-    @deptindex = Deptindex.find_by_sql ["SELECT a.* FROM deptindices a WHERE department_id = ? and indextype = ?", dept, type]
-  end
+  # def getdeptindex(dept, type)
+  #   @deptindex = Deptindex.find_by_sql ["SELECT a.* FROM deptindices a WHERE department_id = ? and indextype = ?", dept, type]
+  # end
 end
