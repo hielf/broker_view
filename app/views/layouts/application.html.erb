@@ -12,9 +12,9 @@
 	</head>
 	<body>
 		<%= render 'layouts/header' %>
-		<div class="container-fluid">	
+		<div class="container">	
 			<%= render 'shared/breadcrumb' %>
-			<div class="row-fluid">
+			<div class="row">
 				<% flash.each do |key, value| %>
 				  <div class="alert alert-<%= key %>">
 					<a class="close" data-dismiss="alert">×</a>

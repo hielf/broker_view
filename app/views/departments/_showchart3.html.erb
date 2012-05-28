@@ -1,0 +1,61 @@
+<div class="well">
+	<script type="text/javascript" charset="utf-8">
+		$(function() {
+			var _dept,_url
+			_dept = <%= @department.id %>
+			_url = '/departments/' + _dept + '/deptindices/1001/dept_index.json'
+
+		  return $.get(_url, function(data) {
+			var chart, _month
+			    _month = [];
+					data.map(function(y) {
+													_month.push(y.month);
+							          })
+
+			new Highcharts.Chart({
+				chart: {
+					renderTo: "chart_3",
+					type: 'column'
+				},
+				title: {
+					text: "全公司收入"
+				},
+				xAxis: {
+					categories: _month,
+					tickInterval: 3
+				},
+				yAxis: {
+					title: {
+						text: "单位：亿"
+					},
+					min: 0,
+					labels: {
+								formatter: function() {
+								   return this.value / 100000000;
+								}
+							}
+				},
+				credits: {
+					enabled: false
+				},
+				series: [
+				{
+				data: 	
+					(function() {
+				                var _results;
+				                _results = [];
+				                data.map(function(y) {
+																				_results.push(y.total);
+														          })
+				                return _results;
+				              })(),
+					name: "总成交量",
+				},
+				]
+			})
+		 });
+		});
+	</script>
+	<div id="chart_3">
+	</div>
+</div>

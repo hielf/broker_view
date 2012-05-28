@@ -18,8 +18,8 @@ class DepartmentsController < ApplicationController
 
   def show
     @department = Department.find(params[:id])
-    @title  = @department.name
-    @branches = @department.branches
+    @title      = @department.name
+    @branches   = @department.branches
     
     # respond_to do |format|
     #   format.html # show.html.erb

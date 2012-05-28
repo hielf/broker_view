@@ -1,17 +1,11 @@
 # encoding: utf-8
 class DeptindicesController < ApplicationController
   before_filter :authenticate
-  def index
-    # @deptmatchbalance =  getdeptindex(params[:department_id], 1001)
-    # @deptcommis =  getdeptindex(params[:department_id], 1002)
-    # 
-    # gon.rabl 'app/views/deptindices/index.json.rabl', as: "deptindex"
-  end
   
   def dept_index
     @deptindex =  getdeptindex(params[:department_id], params[:id])
     
-    gon.rabl 'app/views/deptindices/dept_index.json.rabl', as: "deptindex"
+    # gon.rabl 'app/views/deptindices/dept_index.json.rabl', as: "deptindex"
   end
   
   private
