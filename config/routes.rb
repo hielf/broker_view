@@ -1,16 +1,14 @@
 Htbroker::Application.routes.draw do
-
+  resources :users
+  resources :sessions, :only => [:new, :create, :destroy]
   resources :departments, :only => [:index, :show] do
-    # resources :branches
     resources :deptindices do
       get 'dept_index', :on => :member
     end
   end
-
-  resources :users
-  resources :sessions, :only => [:new, :create, :destroy]
-  resources :departments, :only => [:index, :show] 
+  # resources :departments, :only => [:index, :show] 
   resources :branches, :only => [:index, :show] 
+  resources :brokers, :only => [:show] 
 
 
   root :to => 'pages#home'

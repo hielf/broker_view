@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120522144003) do
+ActiveRecord::Schema.define(:version => 20120529155904) do
 
   create_table "branches", :force => true do |t|
     t.string   "code"
@@ -70,6 +70,7 @@ ActiveRecord::Schema.define(:version => 20120522144003) do
     t.text     "remark"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "avatar"
   end
 
   add_index "brokers", ["branch_id"], :name => "index_brokers_on_branch_id"

@@ -11,7 +11,7 @@ end
 #  department_id :integer(4)
 #  month_id      :string(255)
 #  indextype     :integer(4)
-#  occursum      :integer(10)
+#  occursum      :float(19)
 #  remark        :string(255)
 #  created_at    :datetime
 #  updated_at    :datetime

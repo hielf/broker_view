@@ -167,7 +167,9 @@ describe User do
       @user.should be_admin
     end
   end
-end# == Schema Information
+end
+
+# == Schema Information
 #
 # Table name: users
 #
