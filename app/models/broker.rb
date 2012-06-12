@@ -1,6 +1,6 @@
 class Broker < ActiveRecord::Base
   belongs_to :branch
-  
+  default_scope :order => 'brokers.broker_code'
   
 end
 # == Schema Information

@@ -16,7 +16,7 @@
 					<li><%= link_to "用户", users_path %>
 					<li><%= link_to "设置", edit_user_path(current_user) %>
 			 	<% end %>
-				<li><%= link_to "帮助", help_path %>
+					<li><%= link_to "帮助", help_path %>
 				<% if signed_in? %>
 					<li><%= link_to "退出", signout_path %>
 				<% else %>

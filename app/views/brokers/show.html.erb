@@ -1,13 +1,75 @@
-<h2> <%= @broker.broker_name %> </h2>
-<tr>
-	<ul class="thumbnails">
-	  <li class="span1">
-	    <a href="#" class="thumbnail">
-	      <div class="avatar">
-	      	<%= avatar %>
-	      </div> 
-	    </a>
-	  </li>
-	
-	</ul>
-</tr>
+<div class="span9">
+	<div class="tabbable tabs">
+	  <ul class="nav nav-tabs">
+	    <li class="active"><a href="#1" data-toggle="tab">人员基本信息</a></li>
+	    <li><a href="#2" data-toggle="tab">客户情况</a></li>
+			<li><a href="#3" data-toggle="tab">绩效考核</a></li>
+			<li><a href="#4" data-toggle="tab">收入报酬</a></li>
+			<li><a href="#5" data-toggle="tab">营销活动</a></li>
+	  </ul>
+	  <div class="tab-content">
+	    <div class="tab-pane active" id="1">
+
+
+				<table class="table table-striped table-bordered table-condensed">
+					<thead>
+						<tr>
+							<th>
+
+							</th>
+							<th>
+
+							</th>
+						</tr>
+					</thead>
+				</table>
+	    </div>
+	    <div class="tab-pane" id="2">
+	      <p>客户情况</p>
+	    </div>
+	  </div>
+	</div>
+</div>
+<div class="span3">
+	<div>
+		<div class="sidebar-nav well">
+			<dl class="dl-horizontal">
+				<dt>
+			  	<ul class="thumbnails">
+					  <li>
+					    <a href="<%= broker_path(@broker) %>" class="thumbnail">
+					      <div class="avatar">
+					      	<%= avatar %>
+					      </div> 
+					    </a>
+					  </li>
+					</ul>
+				</dt>
+				<dd>
+					<ul class="unstyled">
+						<li><h3><%= @broker.broker_name %></h3></li>
+					<h5>
+						<li>年龄：<%= @broker.age %></li>
+						<li>性别：<%= @broker.gender %></li>
+						<li>手机：<%= @broker.mobile %></li>
+						<li>邮箱：<%= mail_to @broker.email %></li>
+						<li>状态：<%= @broker.broker_status %></li>
+					</h5>
+					</ul>
+				</dd>
+			</dl>
+		</div>
+		<!-- <div class="sidebar-nav well">
+			<dl class="dl-horizontal">
+				<dt>
+					aaaaa
+				</dt>
+				<dd>
+					bbbbb
+				</dd>
+			</dl>
+		</div> -->
+	</div>
+		
+</div>
+

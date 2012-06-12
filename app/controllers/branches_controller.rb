@@ -15,6 +15,7 @@ class BranchesController < ApplicationController
     @branch     = Branch.find(params[:id])
     @title      = @branch.name
     @father_department = @branch.department
+    @brokers    = @branch.brokers
     
     respond_to do |format|
       format.html # show.html.erb
