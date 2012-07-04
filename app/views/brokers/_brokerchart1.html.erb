@@ -1,0 +1,87 @@
+<script type="text/javascript" charset="utf-8">
+$(function() {
+	showChartResult(1001);
+});
+
+$('.nav-tabs button').click( function(e) {
+	var selected = $(this).attr('value');
+	console.log(selected);
+	showChartResult(selected);
+});
+
+function showChartResult (v) {
+		var _dept,_url,_width
+		_dept = 840
+		_url = '/departments/' + _dept + '/deptindices/' + v + '/dept_index.json'
+		console.log(_url);
+		_width = document.getElementById("tab_page").offsetWidth;
+	  return $.get(_url, function(data) {
+		var chart, _month
+		    _month = [];
+				data.map(function(y) {
+												_month.push(y.month);
+						          })
+		new Highcharts.Chart({
+			chart: {
+				renderTo: "chart_1",
+				type: 'column',
+				zoomType: 'x',
+				width: _width
+			},
+			title: {
+				text: "分公司收入"
+			},
+			xAxis: {
+				categories: _month,
+				tickInterval: 3
+			},
+			yAxis: {
+				title: {
+					text: "单位：亿"
+				},
+				min: 0,
+				labels: {
+							formatter: function() {
+							   return this.value / 100000000;
+							}
+						}
+			},
+			credits: {
+				enabled: false
+			},
+			series: [
+			{
+			data: 	
+				(function() {
+			                var _results;
+			                _results = [];
+			                data.map(function(y) {
+																			_results.push(y.total);
+													          })
+			                return _results;
+			              })(),
+				name: "总成交量",
+			},
+			]
+		})
+	});
+}
+
+</script>
+<!-- <div class="well">
+	<div id="chart_1"></div>
+</div> -->
+<!-- <ul class="thumbnails">
+  <li>
+		<div class="thumbnail">
+			<div class="well">
+				<div id="chart_1"></div>
+			</div>
+		</div>
+  </li>
+</ul> -->
+	<!-- <table>
+		<tr>
+			<td id="chart_1"></td>
+		</tr>
+	</table> -->

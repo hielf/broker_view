@@ -1,10 +1,10 @@
-<table class="table table-striped table-condensed">	
+<table class="table table-condensed table-striped">	
 	<thead>
 		<tr>
 			<th>
 			</th>
 			<th>
-				<em>基本信息</em>
+				<h3>基本信息</h3>
 			</th>
 		</tr>
 	</thead>
@@ -14,12 +14,13 @@
 			<td colspan="3"><%= @broker.branch.name %></td>
 		</tr>
 		<tr>
-			<td rowspan="2">营销人员证件</td>
+			<td>身份信息</td>
 			<td>证件类型</td>
 			<td><%= @broker.certificate_type %></td>
 			<td><%= @broker.certificate_num %></td>
 		</tr>
 		<tr>
+			<td></td>
 			<td>证件地址</td>
 			<td colspan="2"><%= @broker.certificate_addr %></td>
 		</tr>
@@ -41,7 +42,7 @@
 			<th>
 			</th>
 			<th colspan="3">
-				<em>执业情况</em>
+				<h3>执业情况</h3>
 			</th>
 		</tr>
 	</thead>
@@ -59,11 +60,12 @@
 			<td><%= @broker.bank_account %></td>
 		</tr>
 		<tr>
-			<td rowspan="2">协议日期</td>
+			<td>协议信息</td>
 			<td>当前协议日期</td>
 			<td colspan="2"><%= @broker.agreement_begin_date %> ~ <%= @broker.agreement_end_date %></td>
 		</tr>	
 		<tr>	
+			<td></td>
 			<td>最早协议日期</td>
 			<td colspan="2"><%= @broker.earliest_date %></td>
 		</tr>
@@ -92,7 +94,7 @@
 			<th>
 			</th>
 			<th colspan="3">
-				<em>教育情况</em>
+				<h3>教育情况</h3>
 			</th>
 		</tr>
 	</thead>
@@ -117,7 +119,7 @@
 			<th>
 			</th>
 			<th colspan="3">
-				<em>团队情况</em>
+				<h3>团队信息</h3>
 			</th>
 		</tr>
 	</thead>

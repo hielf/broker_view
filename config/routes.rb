@@ -7,9 +7,14 @@ Htbroker::Application.routes.draw do
     end
   end
   # resources :departments, :only => [:index, :show] 
-  resources :branches, :only => [:index, :show] 
-  resources :brokers, :only => [:show] 
-
+  resources :branches, :only => [:index, :show] do
+    get 'typebrokers', :on => :member
+  end
+  resources :brokers, :only => [:show] do
+    resources :brokerindices do
+      get 'broker_index', :on => :member
+    end
+  end
 
   root :to => 'pages#home'
 

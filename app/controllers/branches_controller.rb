@@ -16,11 +16,18 @@ class BranchesController < ApplicationController
     @title      = @branch.name
     @father_department = @branch.department
     @brokers    = @branch.brokers
+    @broker_types = @brokers.select("broker_type").group("broker_type")
     
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @branch }
     end
+  end
+  
+  def typebrokers
+    @branch       = Branch.find(params[:id])
+    @brokers      = @branch.brokers
+    @type_brokers = @brokers.find_by_broker_type(params[:broker_type])
   end
   
 end

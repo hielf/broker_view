@@ -9,10 +9,32 @@
 	  </ul>
 	  <div class="tab-content">
 	    <div class="tab-pane active" id="1">
-			<%= render 'brokers/tablebroker1' %>
+				<%= render 'brokers/tabbroker1' %>
+				<div class="well">
+					<div id="tab_page"></div>
+				</div>
 	    </div>
 	    <div class="tab-pane" id="2">
-	      <p>客户情况</p>
+				<div class="btn-toolbar">
+				  <div class="btn-group nav-tabs" data-toggle="buttons-radio">
+						<button class="btn"><i class="icon-search"></i></button>
+						<button class="btn active" value="1001">1</button>
+						<button class="btn" value="1002">2</button>
+				  </div>
+				</div>
+	      <div>
+					<div class="well">
+						<div id="chart_1"></div>
+					</div>
+	      	<%= render 'brokers/brokerchart1' %>
+					<!-- <table class="table">	
+						<tbody>
+							<tr>
+								<td id="chart_1"></td>
+							</tr>
+						</tbody>
+					</table> -->
+	      </div>
 	    </div>
 	  </div>
 	</div>
