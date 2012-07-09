@@ -1,7 +1,13 @@
+# encoding: utf-8
 class Broker < ActiveRecord::Base
   belongs_to :branch
   default_scope :order => 'brokers.broker_code'
   
+  scope :typebrokers, lambda { |brokertype| where("broker_type = ?", brokertype) } 
+  
+  # def branchtypebrokers(broker_type)
+  #   self.find_by_broker_type(broker_type)
+  # end
 end
 # == Schema Information
 #

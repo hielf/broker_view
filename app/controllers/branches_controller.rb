@@ -24,10 +24,10 @@ class BranchesController < ApplicationController
     end
   end
   
-  def typebrokers
-    @branch       = Branch.find(params[:id])
-    @brokers      = @branch.brokers
-    @type_brokers = @brokers.find_by_broker_type(params[:broker_type])
-  end
+  # def typebrokers
+  #   @branch       = Branch.find(params[:id])
+  #   @brokers      = @branch.gettypebroker
+  #   @type_brokers = @branch.typebrokers(params[:id])
+  # end
   
 end
