@@ -1,1 +1,25 @@
-<li><%= link_to broker.broker_code + " " +broker.broker_name, broker_path(broker) %></li>
+<div>
+	<ul class="thumbnails">
+		<li>
+			<a href="<%= broker_path(broker) %>" class="thumbnail">
+				<div class="avatar_small">
+     			<%= image_tag(broker.avatar, :alt => broker.broker_name, :size => "50x50" ) %>
+				</div>
+			</a>
+		</li>
+		<li>
+			<div>
+				<h4>
+				<%= link_to broker.broker_code + " " +broker.broker_name, broker_path(broker) %>
+				</h4>
+			</div>
+			<div>
+				状态: <%= broker.broker_status %>
+			</div>
+			<div>
+				级别: <%= broker.broker_level %>
+			</div>
+		</li>
+	</ul>
+	<ul class="common-divider"></ul>
+</div>

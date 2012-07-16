@@ -1,18 +1,2 @@
-<div class="span2">
-	<div class="sidebar-nav">
-		<ul class="nav nav-list">
-		  <li class="nav-header"><%= @branch.name %></li>
-			<% @broker_types.each do |name| %>
-				<li><%= link_to name.broker_type, :controller => "brokers", :branch_id => @branch, :broker_type => name.broker_type %>
-			<% end %>
-		  <li class="divider"></li>
-		</ul>
-	</div>
-</div>
-<div class="span10">
-	<div class="hero-unit">
-	   <%= @broker.each do |n| %>
-		  <li> <%= n.broker_name %>	</li>
-		<% end %>
-	</div>
-</div>
+
+<%= @branch.name %>

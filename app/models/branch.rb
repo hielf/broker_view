@@ -17,9 +17,9 @@ class Branch < ActiveRecord::Base
   
   default_scope   :order => 'branches.code' 
   
-  def typebrokers(broker_type)
-    Broker.typebrokers(broker_type)
-  end
+  # def typebrokers(broker_type)
+  #   Broker.typebrokers(broker_type)
+  # end
   # scope :type_brokers, lambda { |broker_type| type_broker(broker_type) }
   # 
   # private

@@ -4,6 +4,28 @@
   overflow:hidden;
 }
 
+.avatar_small {
+  max-width:50px; 
+  max-height:50px; 
+  overflow:hidden;
+}
+
+.common-divider {
+  height: 1px;
+  margin: 8px 1px;
+  overflow: hidden;
+  background-color: #e5e5e5;
+  border-bottom: 1px solid #ffffff;
+  *width: 100%;
+  *margin: -5px 0 5px;
+  height: 1px;
+  margin: 8px 1px;
+  overflow: hidden;
+  background-color: #e5e5e5;
+  border-bottom: 1px solid #ffffff;
+  *width: 100%;
+  *margin: -5px 0 5px;
+}
 /*li.user_info {
   list-style-type: none;
   display: inline-block;

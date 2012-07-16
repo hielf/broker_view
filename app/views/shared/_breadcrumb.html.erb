@@ -27,6 +27,37 @@
 	<li class="active"><strong><%= @branch.name %></strong></li>
 	<!-- <span class="divider">|</span> -->
   </li>
+<% elsif @title == "证券经纪人" || @title == "营销经理" || @title == "全日制营销经理" || @title == "前台员工" %>
+  <li>
+    <%= link_to "", departments_path, :class => "icon-home" %>
+	<span class="divider">•</span>
+  </li>
+  <li>
+    <strong><%= link_to @father_department.name, @father_department, :class => "active" %></strong>
+	<span class="divider">•</span>
+  </li>
+  <li>
+	<li class="active"><strong><%= @branch.name %></strong></li>
+	<!-- <span class="divider">|</span> -->
+  </li>
+<% elsif @title.include? "-" %>
+  <li>
+    <%= link_to "", departments_path, :class => "icon-home" %>
+	<span class="divider">•</span>
+  </li>
+  <li>
+    <strong><%= link_to @father_department.name, @father_department, :class => "active" %></strong>
+	<span class="divider">•</span>
+  </li>
+  <li>
+	<li>
+		<strong><%= link_to @branch.name, @branch, :class => "active" %></strong>
+	</li>
+	<span class="divider">•</span>
+  </li>
+  <li>
+	<li class="active"><strong><%= @broker.broker_code + " - " + @broker.broker_name %></strong></li>
+  </li>
 <% else %>
   <li>
     <%= link_to "", root_path, :class => "icon-home" %>

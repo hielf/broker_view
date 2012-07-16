@@ -8,7 +8,7 @@ Htbroker::Application.routes.draw do
   end
   # resources :departments, :only => [:index, :show] 
   resources :branches, :only => [:index, :show] do
-    # get 'typebrokers', :on => :member
+    get 'typebrokers', :on => :member
   end
   resources :brokers, :only => [:index, :show] do
     resources :brokerindices do

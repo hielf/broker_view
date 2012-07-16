@@ -5,5 +5,5 @@ module BrokersHelper
     @broker = Broker.find(params[:id])
     image_tag(@broker.avatar, :alt => @broker.broker_name, :size => "100x100" )
   end
-  
+
 end

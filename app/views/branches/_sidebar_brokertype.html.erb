@@ -1,0 +1,11 @@
+<div class="span2">
+	<div class="sidebar-nav">
+		<ul class="nav nav-list well">
+		  <li class="nav-header"><%= @branch.name %></li>
+			<% @broker_types.each do |name| %>
+				<li><%= link_to name.broker_type, typebrokers_branch_path(:broker_type => name.broker_type) %>
+			<% end %>
+		  <li class="divider"></li>
+		</ul>
+	</div>
+</div>

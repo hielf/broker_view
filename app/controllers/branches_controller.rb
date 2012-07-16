@@ -1,6 +1,7 @@
 # encoding: utf-8
 class BranchesController < ApplicationController
-  before_filter :authenticate, :only => [:index, :show]
+  before_filter :authenticate
+  
   def index
     @branches = Branch.all # .order("code").paginate(:page => params[:page]).per_page(20)
     @title    = "选择营业部"
@@ -24,6 +25,14 @@ class BranchesController < ApplicationController
     end
   end
   
+  def typebrokers
+    @branch = Branch.find(params[:id])
+    @brokers    = @branch.brokers
+    @broker_types = @brokers.select("broker_type").group("broker_type")
+    @typebrokers = Broker.where("branch_id = ? AND broker_type = ? ", params[:id], params[:broker_type]) 
+    @title  = "#{params[:broker_type]}"
+    @father_department = @branch.department
+  end
   # def typebrokers
   #   @branch       = Branch.find(params[:id])
   #   @brokers      = @branch.gettypebroker
