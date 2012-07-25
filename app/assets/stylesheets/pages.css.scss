@@ -1,3 +1,32 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+ul.ui-autocomplete {
+  position: absolute;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: solid 1px #999;
+  cursor: default;
+  -moz-box-shadow: 1px 1px 2px gray;
+  -webkit-box-shadow: 1px 1px 2px gray;
+  box-shadow: 1px 1px 2px gray;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+  li {
+	background-color: #FFF;
+//	border-top: solid 1px #DDD;
+	margin: 0;
+	padding: 0;
+	a {
+		color: #000;
+		display: block;
+		padding: 3px;
+		text-decoration: none
+	}
+	a.ui-state-hover, a.ui-state-active {
+		background-color: #FFFCB2;
+	}
+  }
+}
+

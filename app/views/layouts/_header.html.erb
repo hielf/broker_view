@@ -27,6 +27,15 @@
 	      </div>
 	      <!-- Be sure to leave the brand out there if you want it shown -->
 		  <a class="brand"><%= logo %></a>
+			<% if signed_in? %>
+				<%= form_for :categories, :url => {:action => "show", :controller =>"categories"}, 
+																	:html => { :class => "navbar-search pull-right" } do |f|%>
+					<%= f.search_field :category_name, :class => "search-query span2", :placeholder => "搜索", :onsearch => true, 
+											 data: { autocomplete_source: categories_path } %>
+					<%= f.submit "", :type => 'hidden' %>
+				<% end %>
+				<!-- <input id="link_broker_id" name="link[broker_id]" type="hidden"/> -->
+			<% end %>
 	    </div>
 	 </div>
  </div>

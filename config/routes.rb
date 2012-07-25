@@ -15,7 +15,8 @@ Htbroker::Application.routes.draw do
       get 'broker_index', :on => :member
     end
   end
-
+  resources :categories
+  
   root :to => 'pages#home'
 
   match '/contact', :to => 'pages#contact'

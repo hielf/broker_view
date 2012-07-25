@@ -14,8 +14,8 @@ class BrokersController < ApplicationController
   end
   
   def index
-    @branch  = Branch.where("id = ?", params[:branch_id])
-    @brokers = Broker.find_by_sql ["SELECT a.* FROM brokers a WHERE branch_id = ? AND broker_type = ? ", params[:branch_id], params[:broker_type]] 
+    # @categories = Broker.order(:broker_code).where("broker_code LIKE ?", "#{params[:term]}")
+    # render json: @categories.map(&:broker_code)
   end
   
 end
