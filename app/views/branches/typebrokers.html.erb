@@ -1,5 +1,6 @@
 <%= render "branches/sidebar_brokertype" %>
 <div class="span10">
 	<%= render @typebrokers %>
+	<%= will_paginate @typebrokers, previous_label: h("<"), next_label: h(">") %>
 	</table>
 </div>

@@ -42,31 +42,27 @@
 <div class="span3">
 	<div>
 		<div class="sidebar-nav well">
-			<dl class="dl-horizontal">
-				<dt>
-			  	<ul class="thumbnails">
-					  <li>
-					    <a href="<%= broker_path(@broker) %>" class="thumbnail">
-					      <div class="avatar">
-					      	<%= avatar %>
-					      </div> 
-					    </a>
-					  </li>
-					</ul>
-				</dt>
-				<dd>
-					<ul class="unstyled">
-						<li><h3><%= @broker.broker_name %></h3></li>
-					<h5>
-						<li>年龄：<%= @broker.age %></li>
-						<li>性别：<%= @broker.gender %></li>
-						<li>手机：<%= @broker.mobile %></li>
-						<li>邮箱：<%= mail_to @broker.email %></li>
-						<li>状态：<%= @broker.broker_status %></li>
-					</h5>
-					</ul>
-				</dd>
-			</dl>
+				<ul class="thumbnails">
+					<li>
+						<a href="<%= broker_path(@broker) %>" class="thumbnail">
+							<div class="avatar">
+			     			<%= avatar %>
+							</div>
+						</a>
+					</li>
+					<li style=" padding-top: 70px;"><h2><%= @broker.broker_name %></h2></li>
+				</ul>
+				<address>
+					<h4>
+						年龄：<%= @broker.age %></br>
+						性别：<%= @broker.gender %></br>
+						手机：<%= @broker.mobile %></br>
+						邮箱：<%= mail_to @broker.email %></br>
+						状态：<%= @broker.broker_status %></br>
+						级别：<%= @broker.broker_level %></br>
+					</h4>
+				</address>
+				<ul class="common-divider"></ul>
 		</div>
 	</div>
 	<div>

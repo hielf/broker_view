@@ -15,7 +15,10 @@ Htbroker::Application.routes.draw do
       get 'broker_index', :on => :member
     end
   end
-  resources :categories
+  resources :categories do
+    get 'search', :on => :collection
+  end
+  # match 'categories' => 'categories#show', :via => :get
   
   root :to => 'pages#home'
 

@@ -1,7 +1,9 @@
+# encoding: utf-8
 class CategoriesController < ApplicationController
   def index
       if params[:term]
-        @categories = Broker.limit(10).find(:all,:conditions => ['broker_code LIKE ? OR broker_name LIKE ?', "%#{params[:term]}%", "%#{params[:term]}%"])
+        @categories = Broker.limit(10).find(:all,:conditions => 
+                      ['broker_code LIKE ? OR broker_name LIKE ?', "%#{params[:term]}%", "%#{params[:term]}%"])
       else
         @categories = Broker.all
       end
@@ -13,8 +15,14 @@ class CategoriesController < ApplicationController
       end
   end
   
-  def show
-    @broker = Broker.find(params[:id])
-    redirect_to @broker
+  def search
+    @title = "搜索结果"
+    @brokers = Broker.search(params[:categories][:category_name])
+    # if params[:categories]
+    #   @brokers = Broker.limit(10).find(:all,:conditions => 
+    #                 ['broker_code LIKE ? OR broker_name LIKE ?', "%#{params[:categories][:category_name]}%", "%#{params[:categories][:category_name]}%"])
+    # else
+    #   @brokers = Broker.all
+    # end
   end
 end

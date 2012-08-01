@@ -28,11 +28,14 @@
 	      <!-- Be sure to leave the brand out there if you want it shown -->
 		  <a class="brand"><%= logo %></a>
 			<% if signed_in? %>
-				<%= form_for :categories, :url => {:action => "show", :controller =>"categories"}, 
+				<%= form_for :categories, :url => search_categories_path,
+																	:method => 'get', 
 																	:html => { :class => "navbar-search pull-right" } do |f|%>
-					<%= f.search_field :category_name, :class => "search-query span2", :placeholder => "搜索", :onsearch => true, 
-											 data: { autocomplete_source: categories_path } %>
-					<%= f.submit "", :type => 'hidden' %>
+					<%= f.search_field :category_name,
+														 :class => "search-query span2", 
+														 :placeholder => "搜索", 
+														 :onsearch => true, data: { autocomplete_source: categories_path } %>
+					<%= f.submit :type => 'hidden', :name => nil, :value => 'search' %>
 				<% end %>
 				<!-- <input id="link_broker_id" name="link[broker_id]" type="hidden"/> -->
 			<% end %>
