@@ -3,7 +3,7 @@
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 jQuery ->
 	$('#categories_category_name').autocomplete({
-		minLength: 2
+		# minLength: 2
 		source: $('#categories_category_name').data('autocomplete-source')
 		focus: (event, ui) ->
 			$("#categories_category_name").val ui.item.broker_code + "-" + ui.item.broker_name

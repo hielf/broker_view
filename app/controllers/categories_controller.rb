@@ -17,12 +17,8 @@ class CategoriesController < ApplicationController
   
   def search
     @title = "搜索结果"
-    @brokers = Broker.search(params[:categories][:category_name])
-    # if params[:categories]
-    #   @brokers = Broker.limit(10).find(:all,:conditions => 
-    #                 ['broker_code LIKE ? OR broker_name LIKE ?', "%#{params[:categories][:category_name]}%", "%#{params[:categories][:category_name]}%"])
-    # else
-    #   @brokers = Broker.all
-    # end
+    if !params[:categories][:category_name].nil?
+      @brokers = Broker.search(params[:categories][:category_name])
+    end
   end
 end

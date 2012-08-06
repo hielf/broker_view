@@ -7,10 +7,10 @@ class Broker < ActiveRecord::Base
   
   def self.search(search)
     if search
-      @brokers = Broker.limit(10).find(:all,:conditions => 
+      @brokers = Broker.limit(20).find(:all,:conditions => 
                   ['CONCAT(broker_code, \'-\', broker_name) = ? OR broker_code LIKE ? OR broker_name LIKE ?', "#{search}","%#{search}%", "%#{search}%"])
     else
-      @brokers = Broker.all
+      @brokers = nil
     end
   end
   
