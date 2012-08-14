@@ -1,60 +1,106 @@
 <div class="well">
 	<script type="text/javascript" charset="utf-8">
 		$(function() {
-			var _dept,_url
+			var _dept,_url,_url2
 			_dept = <%= @department.id %>
-			_url = '/departments/' + _dept + '/deptindices/1001/dept_index.json'
+			_url = '/departments/' + _dept + '/deptindices/1009/dept_index.json'
+			_url2 = '/departments/' + _dept + '/deptindices/1010/dept_index.json'
+			_url3 = '/departments/' + _dept + '/deptindices/1011/dept_index.json'
 
-		  return $.get(_url, function(data) {
-			var chart, _month
-			    _month = [];
-					data.map(function(y) {
-													_month.push(y.month);
-							          })
+		  return $.get(_url, function(data_1) {
+				return $.get(_url2, function(data_2) {
+					return $.get(_url3, function(data_3) {
+					var chart, _month
+					    _month = [];
+							data_1.map(function(y) {
+															_month.push(y.month);
+									          })
 
-			new Highcharts.Chart({
-				chart: {
-					renderTo: "chart_4",
-					type: 'column'
-				},
-				title: {
-					text: "全公司收入"
-				},
-				xAxis: {
-					categories: _month,
-					tickInterval: 3
-				},
-				yAxis: {
-					title: {
-						text: "单位：亿"
-					},
-					min: 0,
-					labels: {
-								formatter: function() {
-								   return this.value / 100000000;
-								}
-							}
-				},
-				credits: {
-					enabled: false
-				},
-				series: [
-				{
-				data: 	
-					(function() {
-				                var _results;
-				                _results = [];
-				                data.map(function(y) {
-																				_results.push(y.total);
-														          })
-				                return _results;
-				              })(),
-					name: "总成交量",
-				},
-				]
-			})
+					new Highcharts.Chart({
+						colors: ['#89a54e','#AA4643','#4572A7'],
+						chart: {
+							renderTo: "chart_4",
+							type: 'bar'
+						},
+						title: {
+							text: "营销团队支出情况"
+						},
+						xAxis: {
+							categories: _month,
+							// tickInterval: 3
+						},
+						yAxis: {
+							title: {
+								text: "单位：亿"
+							},
+							min: 0,
+							labels: {
+										formatter: function() {
+										   return this.value / 100000000;
+										}
+									}
+						},
+						credits: {
+							enabled: false
+						},
+						plotOptions: {
+									series: {
+										stacking: 'normal'
+									}
+								},
+				    tooltip: {
+                formatter: function() {
+                    return '<b>'+ this.x +'</b><br/>'+
+                        this.series.name +': '+ this.y +'<br/>'+
+                        '总报酬支出:'+ this.point.stackTotal;
+                }
+            },
+						series: [
+						{
+						name: '融资融券报酬',
+						data: 	
+							(function() {
+						                var _results;
+						                _results = [];
+						                data_2.map(function(y) {
+																						_results.push(y.total);
+																          })
+						                return _results;
+						              })(),
+					
+						},
+						{
+						name: '报价回购报酬',
+						data: 	
+							(function() {
+						                var _results;
+						                _results = [];
+						                data_3.map(function(y) {
+																						_results.push(y.total);
+																          })
+						                return _results;
+						              })(),
+					
+						},
+						{
+						name: '普通交易报酬',
+						data: 	
+							(function() {
+						                var _results;
+						                _results = [];
+						                data_1.map(function(y) {
+																						_results.push(y.total);
+																          })
+						                return _results;
+						              })(),
+							
+						}
+						]
+					})
+				});
+		   });
+		  });
 		 });
-		});
 	</script>
 	<div id="chart_4">
 	</div>

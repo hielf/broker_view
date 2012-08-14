@@ -6,16 +6,27 @@
 			_url = '/departments/' + _dept + '/deptindices/1005/dept_index.json'
 			_url2 = '/departments/' + _dept + '/deptindices/1006/dept_index.json'
 			_url3 = '/departments/' + _dept + '/deptindices/1007/dept_index.json'
+			_url4 = '/departments/' + _dept + '/deptindices/1008/dept_index.json'
 
 		  return $.get(_url, function(data_1) {
 				return $.get(_url2, function(data_2) {
 					return $.get(_url3, function(data_3) {
+						return $.get(_url4, function(data_4) {
 						var chart, _month
-								// _month = [];
-								// data_1.map(function(y) {
-								// _month.push(y.month);
-								// })
-						// alert (data_2[0].total)
+						var i=-1, j=-1, n=-1, m=-1;
+						for (x in data_1) {
+						    if (data_1.hasOwnProperty(x)) ++i;
+						}
+						for (x in data_2) {
+						    if (data_2.hasOwnProperty(x)) ++j;
+						}
+						for (x in data_3) {
+						    if (data_3.hasOwnProperty(x)) ++n;
+						}
+						for (x in data_4) {
+						    if (data_4.hasOwnProperty(x)) ++m;
+						}
+						// alert (this.point)
 						new Highcharts.Chart({
 							// colors: ['#AA4643','#4572A7'],
 							chart: {
@@ -29,7 +40,7 @@
 							},
 	            tooltip: {
 	              formatter: function() {
-							  	return '<b>'+ this.point.name +'</b>: '+ this.percentage +' %';
+							  	return '<b>'+ this.point.name +'</b>: '+ this.y + '名';
 								}
 	            },
 	            plotOptions: {
@@ -41,7 +52,7 @@
 	                        color: '#000000',
 	                        connectorColor: '#000000',
 	                        formatter: function() {
-	                            return '<b>'+ this.point.name +'</b>: '+ this.percentage +' %';
+	                            return '<b>'+ this.point.name +'</b>: '+ this.percentage.toFixed(0) +' %';
 	                        }
 	                    }
 	                }
@@ -52,11 +63,14 @@
 							series: [{
 								type: 'pie',
 								data: [
-		          		{ name: 'A', y: data_2[0].total },
-				          { name: 'b', y: data_3[0].total },
+									{ name: '证券经纪人', y: data_1[i].total },
+		          		{ name: '非全日制营销人员', y: data_2[j].total },
+				          { name: '全日制营销人员', y: data_3[n].total },
+									{ name: '前台人员', y: data_4[m].total },
 		            ]
 							}]
 						})
+					});
 			   });
 			  });
 		  });

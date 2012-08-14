@@ -7,6 +7,9 @@
 #  name       :string(255)
 #  created_at :datetime
 #  updated_at :datetime
+#  supervisor :string(255)
+#  location   :string(255)
+#  phone      :string(255)
 #
 
 class Department < ActiveRecord::Base

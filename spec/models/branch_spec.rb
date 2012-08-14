@@ -37,5 +37,8 @@ end
 #  created_at    :datetime
 #  updated_at    :datetime
 #  department_id :integer(4)
+#  supervisor    :string(255)
+#  location      :string(255)
+#  phone         :string(255)
 #
 
