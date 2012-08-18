@@ -1,0 +1,102 @@
+<div class="well">
+	<script type="text/javascript" charset="utf-8">
+		$(function() {
+			var _branch,_url,_url2
+			_branch = <%= @branch.id %>
+			_url = '/branches/' + _branch + '/branchindices/1003/branch_index.json'
+			_url2 = '/branches/' + _branch + '/branchindices/1004/branch_index.json'
+
+		  return $.get(_url, function(data_1) {
+				return $.get(_url2, function(data_2) {
+					var chart, _month
+					    _month = [];
+							data_1.map(function(y) {
+															_month.push(y.month);
+									          })
+
+					new Highcharts.Chart({
+						colors: ['#AA4643','#4572A7'],
+						chart: {
+							renderTo: "chart_2",
+							type: 'column'
+						},
+						title: {
+							text: "客户发展情况"
+						},
+						xAxis: {
+							categories: _month,
+							tickInterval: 3
+						},
+						yAxis: {
+							title: {
+								text: "单位：万"
+							},
+							min: 0,
+							labels: {
+											formatter: function() {
+											   return this.value / 10000;
+											}
+										}
+							},
+              stackLabels: {
+                  enabled: true,
+                  style: {
+                      fontWeight: 'bold',
+                      color: (Highcharts.theme && Highcharts.theme.textColor) || 'gray'
+                  }
+							},
+            tooltip: {
+                formatter: function() {
+                    return '<b>'+ this.x +'</b><br/>'+
+                        this.series.name +': '+ this.y +'<br/>'+
+                        '客户总数: '+ this.point.stackTotal;
+                }
+            },
+            plotOptions: {
+                column: {
+                    stacking: 'normal',
+                    dataLabels: {
+                        enabled: false,
+                        color: (Highcharts.theme && Highcharts.theme.dataLabelsColor) || 'white'
+                    }
+                }
+            },
+						credits: {
+							enabled: false
+						},
+						series: [
+						{
+						name: '营销团队客户数',
+						data: 	
+							(function() {
+						                var _results;
+						                _results = [];
+						                data_2.map(function(y) {
+																						_results.push(y.total);
+																          })
+						                return _results;
+						              })(),
+							
+						},
+						{
+						name: '营业部自主开发客户数',
+						data: 	
+							(function() {
+						                var _results;
+						                _results = [];
+						                data_1.map(function(y) {
+																						_results.push(y.total);
+																          })
+						                return _results;
+						              })(),
+					
+						}
+						]
+					})
+		   });
+		  });
+		 });
+	</script>
+	<div id="chart_2">
+	</div>
+</div>

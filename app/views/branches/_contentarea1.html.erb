@@ -1,0 +1,27 @@
+<div class="hero-unit">
+    <p><strong><%= @branch.name %></strong> 
+			<% if !@branch.location.nil? %>
+				位于 <%= @branch.location %> 
+			<% end %>
+			<% if !@branch.supervisor.nil? %>
+				负责人 <%= @branch.supervisor %> 
+			<% end %>
+			<% if !@branch.phone.nil? %>
+				联系电话 <%= @branch.phone %>
+			<% end %>
+		</p>
+		<p>目前拥有在职营销团队成员 <%= @broker_num %> 名，
+			其中全日制营销团队成员 <%= @broker_c_num %> 名，
+			证券经纪人 <%= @broker_a_num %> 名 ，
+			前台人员 <%= @broker_d_num %> 名
+		</p>
+		<p>客户数 <%= @total_cust %> 名， 
+			 有效户 <%= @total_avai_cust %> 位；
+			 营销团队客户数 <%= @total_broker_cust %> 名， 
+			 有效户占 <%= @total_broker_avai_cust %> 位
+		</p>
+		<p>本月实现营业收入(净佣金) <%= (@total_commis / 10000).round(2) %> 万元， 
+			 较上月增长 <%= @increase_rate.round(2) %> %；
+			 其中，营销团队实现收入 <%= (@total_broker_commis / 10000).round(2) %> 万元
+		</p>
+</div>

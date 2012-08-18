@@ -1,0 +1,2 @@
+module BranchindicesHelper
+end

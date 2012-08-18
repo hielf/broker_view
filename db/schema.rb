@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120814174928) do
+ActiveRecord::Schema.define(:version => 20120818161841) do
 
   create_table "branches", :force => true do |t|
     t.string   "code"
@@ -25,6 +25,18 @@ ActiveRecord::Schema.define(:version => 20120814174928) do
   end
 
   add_index "branches", ["department_id"], :name => "index_branches_on_department_id"
+
+  create_table "branchindices", :force => true do |t|
+    t.integer  "branch_id"
+    t.string   "month_id"
+    t.integer  "indextype"
+    t.float    "occursum"
+    t.string   "remark"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "branchindices", ["branch_id", "month_id", "indextype"], :name => "index_branchindices_on_branch_id_and_month_id_and_indextype", :unique => true
 
   create_table "brokerindices", :force => true do |t|
     t.integer  "broker_id"

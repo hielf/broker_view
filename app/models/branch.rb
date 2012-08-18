@@ -17,6 +17,7 @@ class Branch < ActiveRecord::Base
   attr_accessible :code, :name
   belongs_to :department
   has_many :brokers
+  has_many :branchindices
   
   default_scope   :order => 'branches.code' 
   

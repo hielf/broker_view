@@ -9,6 +9,9 @@ Htbroker::Application.routes.draw do
   # resources :departments, :only => [:index, :show] 
   resources :branches, :only => [:index, :show] do
     get 'typebrokers', :on => :member
+    resources :branchindices do
+      get 'branch_index', :on => :member
+    end
   end
   resources :brokers, :only => [:index, :show] do
     resources :brokerindices do

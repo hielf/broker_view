@@ -1,10 +1,10 @@
 <div class="well">
 	<script type="text/javascript" charset="utf-8">
 		$(function() {
-			var _dept,_url,_url2
-			_dept = <%= @department.id %>
-			_url = '/departments/' + _dept + '/deptindices/1001/dept_index.json'
-			_url2 = '/departments/' + _dept + '/deptindices/1002/dept_index.json'
+			var _branch,_url,_url2
+			_branch = <%= @branch.id %>
+			_url = '/branches/' + _branch + '/branchindices/1001/branch_index.json'
+			_url2 = '/branches/' + _branch + '/branchindices/1002/branch_index.json'
 
 		  return $.get(_url, function(data_1) {
 				return $.get(_url2, function(data_2) {
@@ -20,7 +20,7 @@
 							type: 'area'
 						},
 						title: {
-							text: "分公司收入情况"
+							text: "营业部收入情况"
 						},
 						xAxis: {
 							categories: _month,
