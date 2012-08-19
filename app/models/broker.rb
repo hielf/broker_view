@@ -1,6 +1,7 @@
 # encoding: utf-8
 class Broker < ActiveRecord::Base
   belongs_to :branch
+  has_many :brokerindices
   default_scope :order => 'brokers.broker_code'
   
   scope :typebrokers, lambda { |brokertype| where("broker_type = ?", brokertype) } 
