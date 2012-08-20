@@ -18,11 +18,8 @@
 				<div class="btn-toolbar">
 				  <div class="btn-group nav-tabs" data-toggle="buttons-radio">
 						<button class="btn"><i class="icon-search"></i></button>
-						<!-- <button class="btn active" value="1001">1</button>
-						<button class="btn" value="1002">2</button>
-						<button class="btn" value="1002">3/button> -->
-						<% Time.now.beginning_of_year.strftime("%m").to_i.upto(Time.now.strftime("%m").to_i).each do |i| %>
-							<button class="btn" value= "<%= i %>" > <%= i %> </button>
+						<% Time.now.beginning_of_year.strftime("%Y%m").upto(Time.now.strftime("%Y%m")).each do |i| %>
+							<button class="btn" value= "<%= i %>" > <%= i.at(5) %> </button>
 						<% end %>
 				  </div>
 				</div>

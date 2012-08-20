@@ -1,84 +1,81 @@
 <script type="text/javascript" charset="utf-8">
 $(function() {
-	showChartResult2(1003,1004);
+	var curmonth = <%= Time.now.strftime("%Y%m") %>
+	showChartResult2(curmonth);
 });
 
 $('.nav-tabs button').click( function(e) {
 	var selected = $(this).attr('value');
-	console.log(selected);
 	showChartResult2(selected);
 });
 
-function showChartResult2 (v,w) {
-		var _dept,_url,_width
+function showChartResult2 (v) {
+		var _dept,_url,_width,_url2,_url3,_url4
 		_broker = <%= @broker.id %>
-		_url = '/brokers/' + _broker + '/brokerindices/' + v + '/broker_index.json'
-		_url2 = '/brokers/' + _broker + '/brokerindices/' + w + '/broker_index.json'
+		_url = '/brokers/' + _broker + '/brokerindices/1005/broker_index.json'
+		_url2 = '/brokers/' + _broker + '/brokerindices/1006/broker_index.json'
+		_url3 = '/brokers/' + _broker + '/brokerindices/1007/broker_index.json'
+		_url4 = '/brokers/' + _broker + '/brokerindices/1008/broker_index.json'
 		// console.log(_url);
 		_width = document.getElementById("tab_page").offsetWidth;
-	  return $.get(_url, function(data) {
+	  return $.get(_url, function(data_1) {
 			return $.get(_url2, function(data_2) {
-			var chart, _month
-			    _month = [];
-					data.map(function(y) {
-													_month.push(y.month);
-							          })
-			new Highcharts.Chart({
-				chart: {
-					renderTo: "chart_2",
-					type: 'column',
-					zoomType: 'x',
-					width: _width/2.15
-				},
-				title: {
-					text: "客户情况2"
-				},
-				xAxis: {
-					categories: _month,
-					tickInterval: 3
-				},
-				yAxis: {
-					title: {
-						text: "客户数"
-					},
-					min: 0,
-					labels: {
-								formatter: function() {
-								   return this.value;
+				return $.get(_url3, function(data_3) {
+					return $.get(_url4, function(data_4) {
+						var chart, _month, data_1_1, data_2_1, data_3_1, data_4_1
+						for(var i in data_1){   
+						if (data_1[i].month == v)
+							data_1_1 = data_1[i],
+							data_2_1 = data_2[i],
+							data_3_1 = data_3[i],
+							data_4_1 = data_4[i]
+						 }
+						// alert(data_1.total + "&" + data_2.total);  
+						new Highcharts.Chart({
+							chart: {
+								renderTo: "chart_2",
+								plotBackgroundColor: null,
+								plotBorderWidth: null,
+			          plotShadow: false,
+								width: _width/2.15
+							},
+							title: {
+								text: "客户资产分布"
+							},
+							tooltip: {
+			          formatter: function() {
+							  	return '<b>'+ this.point.name +'</b>: '+ this.y + '元';
 								}
-							}
-				},
-				credits: {
-					enabled: false
-				},
-				series: [
-				{
-				data: 	
-					(function() {
-				                var _results;
-				                _results = [];
-				                data.map(function(y) {
-																				_results.push(y.total);
-														          })
-				                return _results;
-				              })(),
-					name: "客户总数",
-				},
-				{
-				data: 	
-					(function() {
-				                var _results;
-				                _results = [];
-				                data_2.map(function(y) {
-																				_results.push(y.total);
-														          })
-				                return _results;
-				              })(),
-					name: '新增客户数',
-				}
-				]
-			})
-		});
+			        },
+			        plotOptions: {
+			            pie: {
+			                allowPointSelect: true,
+			                cursor: 'pointer',
+			                dataLabels: {
+			                    enabled: true,
+			                    color: '#000000',
+			                    connectorColor: '#000000',
+			                    formatter: function() {
+			                        return '<b>'+ this.point.name +'</b>: '+ this.percentage.toFixed(0) +' %';
+			                    }
+			                }
+			            }
+			        },
+							credits: {
+								enabled: false
+							},
+							series: [{
+								type: 'pie',
+								data: [
+									{ name: '期末股基资产', y: data_1_1.total },
+			        		{ name: '融资融券资产', y: data_2_1.total },
+									{ name: '报价回购保有量', y: data_3_1.total },
+			          ]
+							}]
+						})
+					});
+				});
+			});
   });
 }
 </script>

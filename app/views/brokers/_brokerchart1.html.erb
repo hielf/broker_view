@@ -5,16 +5,16 @@ $(function() {
 
 $('.nav-tabs button').click( function(e) {
 	var selected = $(this).attr('value');
-	console.log(selected);
-	showChartResult1(selected);
+	// console.log(selected);
+	showChartResult1(1003,1004);
 });
 
 function showChartResult1 (v,w) {
-		var _dept,_url,_width
+		var _dept,_url,_width,_url2
 		_broker = <%= @broker.id %>
 		_url = '/brokers/' + _broker + '/brokerindices/' + v + '/broker_index.json'
 		_url2 = '/brokers/' + _broker + '/brokerindices/' + w + '/broker_index.json'
-		// console.log(_url);
+		// console.log(_url2);
 		_width = document.getElementById("tab_page").offsetWidth;
 	  return $.get(_url, function(data) {
 			return $.get(_url2, function(data_2) {
@@ -35,7 +35,7 @@ function showChartResult1 (v,w) {
 				},
 				xAxis: {
 					categories: _month,
-					tickInterval: 3
+					// tickInterval: 3
 				},
 				yAxis: {
 					title: {
