@@ -4,9 +4,9 @@
 			<a href="<%= broker_path(broker) %>" class="thumbnail">
 				<div class="avatar-small">
 					<% if !broker.avatar.nil? %>
-     				<%= image_tag(broker.avatar, :alt => broker.broker_name, :size => "50x50" ) %>
+     				<%= image_tag(broker.avatar, :alt => broker.broker_name, :size => "80x80" ) %>
 					<% else %>
-						<%= image_tag("nobody.gif", :alt => broker.broker_name, :size => "50x50" ) %>
+						<%= image_tag("nobody.gif", :alt => broker.broker_name, :size => "80x80" ) %>
 					<% end %>
 				</div>
 			</a>
