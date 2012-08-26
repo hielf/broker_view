@@ -3,13 +3,36 @@ class DepartmentsController < ApplicationController
   before_filter :authenticate, :only => [:index, :show]
   def index
     @departments = Department.all
-    @title    = "选择分公司"
-    @timeperiod = time_period(time)
+    @department  = Department.find_by_code(0000)
+    @title       = "选择分公司"
+    @timeperiod  = time_period(time)
     @department_num = @departments.count.to_i-1
-    @branches = Branch.all
-    @branch_num = @branches.count.to_i
+    @branches    = Branch.all
+    @branch_num  = @branches.count.to_i
     @direct_branch_num = Department.find_by_code(0000).branches.count.to_i
-
+    
+    if @department.deptindices.order("month_id DESC").find_by_indextype(1005).nil?
+      @broker_a_num = 0  
+    else 
+      @broker_a_num = @department.deptindices.unscoped.order("month_id DESC").find_by_indextype(1005).occursum.round
+    end
+    if @department.deptindices.order("month_id DESC").find_by_indextype(1006).nil?
+      @broker_b_num = 0  
+    else 
+      @broker_b_num = @department.deptindices.unscoped.order("month_id DESC").find_by_indextype(1006).occursum.round
+    end
+    if @department.deptindices.order("month_id DESC").find_by_indextype(1007).nil?
+       @broker_c_num = 0  
+     else 
+       @broker_c_num = @department.deptindices.unscoped.order("month_id DESC").find_by_indextype(1007).occursum.round
+     end
+     if @department.deptindices.order("month_id DESC").find_by_indextype(1008).nil?
+       @broker_d_num = 0  
+     else 
+       @broker_d_num = @department.deptindices.unscoped.order("month_id DESC").find_by_indextype(1008).occursum.round
+     end
+     @broker_num = @broker_a_num + @broker_b_num + @broker_c_num + @broker_d_num
+     
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @departments }

@@ -1,6 +1,6 @@
 <!-- 全公司收入柱状图 全公司团队人数饼图 全公司团队收入报酬 全公司新增客户数 -->
 
-<div class="span2">
+<div class="span2" style="height: 1024px;">
 	<div class="sidebar-nav">
 		<ul class="nav nav-list well">
 		  <li class="nav-header">
@@ -18,20 +18,14 @@
 	</div>
 </div>
 <div class="span5">
-	<%= render 'departments/indexchart1' %>
+  <%= render 'departments/showchart1' %>
 </div>
 <div class="span5">
-	<div class="well">
-		<p>营销人员6801人，其中证券经纪人3253人，营销经理527人，全日营销经理2247人</p>
-	</div>
+	<%= render 'departments/showchart2' %>
 </div>
 <div class="span5">
-	<div class="well">
-		<p>公司当前有分公司15家，直属营业部34家，共计营业部202家</p>
-	</div>
+	<%= render 'departments/showchart3' %>
 </div>
 <div class="span5">
-	<div class="well">
-		<p>本月新增客户数95315人，其中营销团队客户数20532人，渠道客户数7428人，营业自主开发客户数67123人</p>
-	</div>
+	<%= render 'departments/showchart4' %>
 </div>
