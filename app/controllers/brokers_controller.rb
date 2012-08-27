@@ -18,4 +18,10 @@ class BrokersController < ApplicationController
     # render json: @categories.map(&:broker_code)
   end
   
+  def relbrokers
+    @title = "relbrokers"
+    @broker = Broker.find(params[:id])
+    @brokers = @broker.relbrokers
+    render 'categories/search'
+  end
 end

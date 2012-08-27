@@ -2,6 +2,10 @@
 class Broker < ActiveRecord::Base
   belongs_to :branch
   has_many :brokerindices
+  has_many :brokerrels, :dependent => :destroy,
+                        :foreign_key => "broker_id"
+  has_many :relbrokers, :through => :brokerrels, :source => :relbroker
+  
   default_scope :order => 'brokers.broker_code'
   
   scope :typebrokers, lambda { |brokertype| where("broker_type = ?", brokertype) } 
