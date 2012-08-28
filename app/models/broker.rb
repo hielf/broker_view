@@ -3,8 +3,8 @@ class Broker < ActiveRecord::Base
   belongs_to :branch
   has_many :brokerindices
   has_many :brokerrels, :dependent => :destroy,
-                        :foreign_key => "broker_id"
-  has_many :relbrokers, :through => :brokerrels, :source => :relbroker
+                        :foreign_key => "rel_broker_id"
+  has_many :relbrokers, :through => :brokerrels, :source => :broker
   
   default_scope :order => 'brokers.broker_code'
   

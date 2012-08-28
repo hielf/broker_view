@@ -1,3 +1,4 @@
+# encoding: utf-8
 class BrokersController < ApplicationController
   before_filter :authenticate, :only => [:index, :show]
   
@@ -19,7 +20,7 @@ class BrokersController < ApplicationController
   end
   
   def relbrokers
-    @title = "relbrokers"
+    @title = "关联帐户"
     @broker = Broker.find(params[:id])
     @brokers = @broker.relbrokers
     render 'categories/search'
