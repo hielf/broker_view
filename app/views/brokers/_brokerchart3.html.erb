@@ -4,7 +4,7 @@ $(function() {
 	showChartResult3(curmonth);
 });
 
-$('.nav-tabs button').click( function(e) {
+$('#nav-broker-cust button').click( function(e) {
 	var selected = $(this).attr('value');
 	showChartResult3(selected);
 });
@@ -12,8 +12,8 @@ $('.nav-tabs button').click( function(e) {
 function showChartResult3 (v) {
 		var _dept,_url,_width,_url2
 		_broker = <%= @broker.id %>
-		_url = '/brokers/' + _broker + '/brokerindices/1005/broker_index.json'
-		_url2 = '/brokers/' + _broker + '/brokerindices/1006/broker_index.json'
+		_url = '/brokers/' + _broker + '/brokerindices/1009/broker_index.json'
+		_url2 = '/brokers/' + _broker + '/brokerindices/1010/broker_index.json'
 		// console.log(_url);
 		_width = document.getElementById("tab_page").offsetWidth;
 	  return $.get(_url, function(data_1) {

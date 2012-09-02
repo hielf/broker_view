@@ -1,0 +1,30 @@
+<div>
+	<div class="sidebar-nav well">
+			<ul class="thumbnails">
+				<li style="margin-left: 0px; margin-bottom: 0px;">
+					<a href="<%= broker_path(@broker) %>" class="thumbnail">
+						<div class="avatar">
+		     			<%= avatar %>
+						</div>
+					</a>
+				</li>
+				<li style="margin-bottom: 0px; margin-top: 70px;">
+					<h4><%= @broker.broker_name %></h4>
+				</li>
+			</ul>
+			<address>
+				<h5>
+					年龄：<%= @broker.age %></br>
+					性别：<%= @broker.gender %></br>
+					手机：<%= @broker.mobile %></br>
+					邮箱：<%= mail_to @broker.email %></br>
+					状态：<%= @broker.broker_status %></br>
+					级别：<%= @broker.broker_level %></br>
+					<% if @broker.brokerrels.any? %>
+					关联帐户：<a href="<%= relbrokers_broker_path(@broker) %>"><%= @broker.brokerrels.count %></a>
+					<% end %>
+				</h5>
+			</address>
+			<ul class="common-divider"></ul>
+	</div>
+</div>

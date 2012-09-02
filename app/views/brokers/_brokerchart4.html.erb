@@ -1,23 +1,21 @@
 <script type="text/javascript" charset="utf-8">
 $(function() {
-	showChartResult1(1003,1004);
+	showChartResult4(1011);
 });
 
-$('#nav-broker-cust button').click( function(e) {
+$('#nav-broker-point button').click( function(e) {
 	var selected = $(this).attr('value');
 	// console.log(selected);
-	showChartResult1(1003,1004);
+	showChartResult4(1011);
 });
 
-function showChartResult1 (v,w) {
-		var _dept,_url,_width,_url2
+function showChartResult4 (v) {
+		var _dept,_url,_width
 		_broker = <%= @broker.id %>
 		_url = '/brokers/' + _broker + '/brokerindices/' + v + '/broker_index.json'
-		_url2 = '/brokers/' + _broker + '/brokerindices/' + w + '/broker_index.json'
 		// console.log(_url2);
 		_width = document.getElementById("tab_page").offsetWidth;
 	  return $.get(_url, function(data) {
-			return $.get(_url2, function(data_2) {
 			var chart, _month
 			    _month = [];
 					data.map(function(y) {
@@ -25,22 +23,20 @@ function showChartResult1 (v,w) {
 							          })
 			new Highcharts.Chart({
 				chart: {
-					renderTo: "chart_1",
-					type: 'column',
-					zoomType: 'x',
+					renderTo: "chart_4",
+					type: 'line',
 					width: _width
 				},
 				title: {
-					text: "客户情况"
+					text: "个人考核情况"
 				},
 				xAxis: {
 					categories: _month,
-					maxZoom: 1,
 					// tickInterval: 3
 				},
 				yAxis: {
 					title: {
-						text: "客户数"
+						text: "考核分值"
 					},
 					min: 0,
 					labels: {
@@ -63,23 +59,10 @@ function showChartResult1 (v,w) {
 														          })
 				                return _results;
 				              })(),
-					name: "客户总数",
-				},
-				{
-				data: 	
-					(function() {
-				                var _results;
-				                _results = [];
-				                data_2.map(function(y) {
-																				_results.push(y.total);
-														          })
-				                return _results;
-				              })(),
-					name: '新增客户数',
+					name: "总绩效考核得分",
 				}
 				]
 			})
-		});
   });
 }
 </script>

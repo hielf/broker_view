@@ -14,5 +14,6 @@
 class Brokerindex < ActiveRecord::Base
   belongs_to :broker
   
-  default_scope   :order => 'brokerindices.month_id'
+  default_scope :order => 'brokerindices.month_id'
+  
 end

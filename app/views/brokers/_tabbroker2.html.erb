@@ -1,5 +1,5 @@
 <div class="btn-toolbar">
-  <div class="btn-group nav-tabs" data-toggle="buttons-radio">
+  <div id="nav-broker-cust" class="btn-group nav-tabs" data-toggle="buttons-radio">
 		<button class="btn"><i class="icon-search"></i></button>
 		<% Time.now.beginning_of_year.strftime("%Y%m").upto(Time.now.strftime("%Y%m")).each do |i| %>
 			<button class="btn" value= "<%= i %>" > <%= i.at(5) %> </button>
@@ -28,11 +28,4 @@
 			</div>
 		</div>
 	</div>
-	<!-- <table class="table">	
-		<tbody>
-			<tr>
-				<td id="chart_1"></td>
-			</tr>
-		</tbody>
-	</table> -->
 </div>

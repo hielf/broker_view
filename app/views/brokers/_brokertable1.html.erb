@@ -1,0 +1,100 @@
+<table id="_table1" class="table table-bordered">
+
+</table>
+<script type="text/javascript" charset="utf-8">
+$(function() {
+	var curmonth = <%= Time.now.strftime("%Y%m") %>
+	showTableResult1(curmonth);
+});
+
+$('#nav-broker-point button').click( function(e) {
+	var selected = $(this).attr('value');
+	showTableResult1(selected);
+});
+
+function clearRows1(){  
+    var tableLen = document.getElementById('_table1').rows.length;  
+    if(tableLen > 0){  
+        for(var i=0; i<tableLen; i++){  
+            document.getElementById('_table1').deleteRow(tableLen-i-1);  
+        }  
+    }  
+}
+
+function showTableResult1 (v) {
+	_broker = <%= @broker.id %>
+	clearRows1();  
+	var _table = document.getElementById("_table1");  
+	var _container,_row,_cell,_url1,_url2,_url3,_url4;
+	//table head
+	_container = document.createElement("thead");
+	document.getElementById("_table1").appendChild(_container);  
+	_row = document.createElement("tr");  
+	_container.appendChild(_row);  
+	_cell = document.createElement("th");  
+	_row.appendChild(_cell);
+	_cell = document.createElement("th");  
+	_cell.innerText = v;  
+	_row.appendChild(_cell);
+
+	_url1 = '/brokers/' + _broker + '/brokerindices/5001/broker_index.json'
+	_url2 = '/brokers/' + _broker + '/brokerindices/5002/broker_index.json'
+	_url3 = '/brokers/' + _broker + '/brokerindices/5003/broker_index.json'
+	_url4 = '/brokers/' + _broker + '/brokerindices/5004/broker_index.json'
+
+	return $.get(_url1, function(data_1) {
+		return $.get(_url2, function(data_2) {
+			return $.get(_url3, function(data_3) {
+				return $.get(_url4, function(data_4) {
+					var data_1_1, data_2_1, data_3_1, data_4_1
+					for(var i in data_1){   
+					if (data_1[i].month == v)
+						data_1_1 = data_1[i],
+						data_2_1 = data_2[i],
+						data_3_1 = data_3[i],
+						data_4_1 = data_4[i]
+					 }
+					//table body
+					_container = document.createElement("tbody");
+					document.getElementById("_table1").appendChild(_container);  
+					_row = document.createElement("tr");
+					_cell = document.createElement("td");  
+					_cell.innerText = data_1_1.subtitle;  
+					_row.appendChild(_cell);
+					_container.appendChild(_row);  
+					_cell = document.createElement("td");
+					_cell.innerText = data_1_1.total;  
+					_row.appendChild(_cell);
+					
+					_row = document.createElement("tr");
+					_cell = document.createElement("td");  
+					_cell.innerText = data_2_1.subtitle;  
+					_row.appendChild(_cell);
+					_container.appendChild(_row);  
+					_cell = document.createElement("td");
+					_cell.innerText = data_2_1.total;  
+					_row.appendChild(_cell);
+					
+					_row = document.createElement("tr");
+					_cell = document.createElement("td");  
+					_cell.innerText = data_3_1.subtitle;  
+					_row.appendChild(_cell);
+					_container.appendChild(_row);  
+					_cell = document.createElement("td");
+					_cell.innerText = data_3_1.total;  
+					_row.appendChild(_cell);
+					
+					_row = document.createElement("tr");
+					_cell = document.createElement("td");  
+					_cell.innerText = data_4_1.subtitle;  
+					_row.appendChild(_cell);
+					_container.appendChild(_row);  
+					_cell = document.createElement("td");
+					_cell.innerText = data_4_1.total;  
+					_row.appendChild(_cell);
+					});
+				});
+			});
+	  });
+}
+</script>

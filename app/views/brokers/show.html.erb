@@ -20,53 +20,14 @@
 	    <div class="tab-pane" id="3">
 				<%= render 'brokers/tabbroker3' %>
 	    </div>
+	    <div class="tab-pane" id="4">
+				<%= render 'brokers/tabbroker4' %>
+	    </div>
 	  </div>
 	</div>
 </div>
 <div class="span3">
-	<div>
-		<div class="sidebar-nav well">
-				<ul class="thumbnails">
-					<li style="margin-left: 0px; margin-bottom: 0px;">
-						<a href="<%= broker_path(@broker) %>" class="thumbnail">
-							<div class="avatar">
-			     			<%= avatar %>
-							</div>
-						</a>
-					</li>
-					<li style="margin-bottom: 0px; margin-top: 70px;">
-						<h4><%= @broker.broker_name %></h4>
-					</li>
-				</ul>
-				<address>
-					<h5>
-						年龄：<%= @broker.age %></br>
-						性别：<%= @broker.gender %></br>
-						手机：<%= @broker.mobile %></br>
-						邮箱：<%= mail_to @broker.email %></br>
-						状态：<%= @broker.broker_status %></br>
-						级别：<%= @broker.broker_level %></br>
-						<% if @broker.brokerrels.any? %>
-						关联帐户：<a href="<%= relbrokers_broker_path(@broker) %>"><%= @broker.brokerrels.count %></a>
-						<% end %>
-					</h5>
-				</address>
-				<ul class="common-divider"></ul>
-		</div>
-	</div>
-	<div>
-		<div class="sidebar-nav">
-			<ul class="unstyled">
-				<blockquote>
-				  <p>营销人员资料修改</p>
-				  <small>经纪业务管理岗 测试人员</small>
-				</blockquote>
-				<blockquote>
-				  <p>经纪关系挂接</p>
-				  <small>李瑾艳</small>
-				</blockquote>
-			</ul>
-		</div>
-	</div>
+	<%= render 'brokers/sidebarbroker1' %>
+	<%= render 'brokers/sidebarbroker2' %>
 </div>
 

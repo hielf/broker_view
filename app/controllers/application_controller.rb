@@ -3,5 +3,5 @@ class ApplicationController < ActionController::Base
   include SessionsHelper
   include DepartmentsHelper
   include DeptindicesHelper
-  # include BranchesHelper
+  # include BrokersHelper
 end

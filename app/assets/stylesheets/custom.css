@@ -31,6 +31,20 @@
   background-color: #eee;
 }
 
+/*#broker-score {
+  position: relative;
+}*/
+
+.broker-score {
+  position: relative;
+}
+
+.level-img {
+  position: absolute;
+  right: 0%;
+  top: -5%;
+}
+
 /*
 .ui-corner-all
 {
