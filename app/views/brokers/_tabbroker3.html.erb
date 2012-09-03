@@ -23,7 +23,7 @@
 			<div class="broker-score well">
 				<legend>考核结果</legend>
 				<div class="level-img">
-					<%= level_detect("201209") %>
+					<%= level_detect(201209) %>
 					<!-- <img src="/assets/level_down.gif"> -->
 				</div>
 				<!-- <div id="broker-score"> -->
@@ -33,3 +33,7 @@
 		</div>
 	</div>
 </div>
+
+<!-- <%= javascript_tag do %>
+	window.levelimgURL = "<%= j level_detect("201208") %>";
+<% end %> -->

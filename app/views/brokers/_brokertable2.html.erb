@@ -1,17 +1,31 @@
-
 <table id="_table2" class="table table-bordered">
-
 </table>
 <script type="text/javascript" charset="utf-8">
 $(function() {
 	var curmonth = <%= Time.now.strftime("%Y%m") %>
 	showTableResult2(curmonth);
+	// imgchg1(curmonth);
 });
 
 $('#nav-broker-point button').click( function(e) {
 	var selected = $(this).attr('value');
-	showTableResult2(selected);
+		showTableResult2(selected);
+	// $('.level-img').load( $(this).attr("value") );
+	imgchg1(selected);
 });
+
+// $(document).ready(function() {
+//     
+//     $('#nav-broker-point button').click( function(){
+//         $('.level-img').load( $(this).attr("href") );
+//         return false;
+//     });
+//     
+// });
+
+function imgchg1 (m) {
+ 	return $('.level-img').replaceWith('<%=j level_detect(201208) %>');
+}
 
 function clearRows2(){  
     var tableLen = document.getElementById('_table2').rows.length;  

@@ -45,6 +45,10 @@
   top: -5%;
 }
 
+.accordion-body.in:hover { 
+   overflow: visible;
+}
+
 /*
 .ui-corner-all
 {
