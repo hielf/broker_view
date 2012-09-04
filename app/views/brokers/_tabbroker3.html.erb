@@ -2,7 +2,9 @@
   <div id="nav-broker-point" class="btn-group nav-tabs" data-toggle="buttons-radio">
 		<button class="btn"><i class="icon-search"></i></button>
 		<% Time.now.beginning_of_year.strftime("%Y%m").upto(Time.now.strftime("%Y%m")).each do |i| %>
-			<button class="btn" value= "<%= i %>" > <%= i.at(5) %> </button>
+			<%= content_tag "button", :class => "btn", :value => i do %>
+				<%= i.at(5) %>
+			<% end %>
 		<% end %>
   </div>
 </div>
@@ -22,18 +24,8 @@
 		<div class="span6">
 			<div class="broker-score well">
 				<legend>考核结果</legend>
-				<div class="level-img">
-					<%= level_detect(201209) %>
-					<!-- <img src="/assets/level_down.gif"> -->
-				</div>
-				<!-- <div id="broker-score"> -->
 					<%= render 'brokers/brokertable2' %>
-				<!-- </div> -->
 			</div>
 		</div>
 	</div>
 </div>
-
-<!-- <%= javascript_tag do %>
-	window.levelimgURL = "<%= j level_detect("201208") %>";
-<% end %> -->

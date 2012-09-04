@@ -7,7 +7,7 @@ class BrokersController < ApplicationController
     @title  = @broker.broker_code + " - " + @broker.broker_name
     @branch = @broker.branch
     @father_department = @branch.department
-    
+      
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @broker }
