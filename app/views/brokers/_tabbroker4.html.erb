@@ -1,88 +1,18 @@
 <div class="accordion" id="accordion2">
-	<div class="accordion-group">
-		<div class="accordion-heading">
-			<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-				薪酬报告 #1
-			</a>
-		</div>
-		<div id="collapseOne" class="accordion-body collapse" style="height: auto; ">
-			<div class="accordion-inner">
-				<!-- <legend>薪酬报告</legend> -->
-				<table class="table table-condensed table-hover">
-				 	<!-- <caption><h3>薪酬报告</h3></caption> -->
-				  <thead>
-				    <tr>
-				      <th></th>
-				      <th>收入业绩</th>
-							<th></th>
-				    </tr>
-				  </thead>
-				  <tbody>
-				    <tr>
-				      <td>总净佣金</td>
-							<td colspan="2"></td>
-				    </tr>
-						<tr>
-							<td>一般净佣金</td>
-							<td>融资融券产品净佣金</td>
-							<td>报价回购销售利润</td>
-						</tr>
-						<tr>
-				      <td>总成交量</td>
-							<td colspan="2"></td>
-				    </tr>
-						<tr>
-							<td>一般成交量</td>
-							<td>融资融券产品成交量</td>
-							<td>报价回购日均保有量</td>
-						</tr>
-				  </tbody>
-					<thead>
-				    <tr>
-				      <th></th>
-				      <th>报酬支出</th>
-							<th></th>
-				    </tr>
-				  </thead>
-					<tbody>
-						<tr>
-				      <td>税前工资</td>
-							<td colspan="2"></td>
-				    </tr>
-						<tr>
-							<td>基本工资</td>
-							<td>佣金提成</td>
-							<td>产品销售奖励</td>
-						</tr>
-					</tbody>
-				</table>
+	<% @salary_months.each do |t| %>
+		<div class="accordion-group">
+			<div class="accordion-heading">
+				<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse<%=t.month_id%>">
+					薪酬报告 #<%=t.month_id%>
+				</a>
+			</div>
+			<div id="collapse<%=t.month_id%>" class="accordion-body collapse" <% if @salary_months.first.month_id == t.month_id %>style="height: auto;" <% end %>>
+				<div class="accordion-inner">
+					<%= render 'brokers/brokertable3' %>
+				</div>
 			</div>
 		</div>
-	</div>
-	<div class="accordion-group">
-		<div class="accordion-heading">
-			<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-				薪酬报告 #2
-			</a>
-		</div>
-		<div id="collapseTwo" class="accordion-body collapse" style="height: 0px; ">
-			<div class="accordion-inner">
-				Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-			</div>
-		</div>
-	</div>
-	<div class="accordion-group">
-		<div class="accordion-heading">
-			<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-				薪酬报告 #3
-			</a>
-		</div>
-		<div id="collapseThree" class="accordion-body in collapse" style="height: 0px; ">
-			<div class="accordion-inner">
-				Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-			</div>
-		</div>
-	</div>
+	<% end %>
 </div>​
  
 

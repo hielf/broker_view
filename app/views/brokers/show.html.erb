@@ -4,7 +4,9 @@
 	    <li class="active"><a href="#1" data-toggle="tab">人员情况</a></li>
 	    <li><a href="#2" data-toggle="tab">客户情况</a></li>
 			<li><a href="#3" data-toggle="tab">绩效考核</a></li>
+			<% #if !@salary_months.empty? %>
 			<li><a href="#4" data-toggle="tab">收入报酬</a></li>
+			<% #end %>
 			<li><a href="#5" data-toggle="tab">营销活动</a></li>
 	  </ul>
 	  <div class="tab-content">

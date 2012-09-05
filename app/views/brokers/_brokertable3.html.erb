@@ -1,0 +1,81 @@
+<table class="table table-condensed table-hover">
+ 	<!-- <caption><h3>薪酬报告</h3></caption> -->
+  <thead>
+    <tr>
+      <th></th>
+      <th>业绩收入</th>
+			<th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>总净佣金</td>
+			<td colspan="2"></td>
+    </tr>
+		<tr>
+			<td>一般净佣金</td>
+			<td>融资融券产品净佣金</td>
+			<td>报价回购销售利润</td>
+		</tr>
+		<tr>
+      <td>总成交量</td>
+			<td colspan="2"></td>
+    </tr>
+		<tr>
+			<td>一般成交量</td>
+			<td>融资融券产品成交量</td>
+			<td>报价回购日均保有量</td>
+		</tr>
+  </tbody>
+	<thead>
+    <tr>
+      <th></th>
+      <th>报酬支出</th>
+			<th></th>
+    </tr>
+  </thead>
+	<tbody>
+		<tr>
+      <td>税前工资</td>
+			<td colspan="2"><%= @broker_salary_1.where(:indextype => 6002).first.occursum %></td>
+    </tr>
+		<tr>
+			<td>基本工资</td>
+			<td>佣金提成</td>
+			<td>产品销售奖励</td>
+		</tr>
+	</tbody>
+	<thead>
+    <tr>
+      <th></th>
+      <th>风险金</th>
+			<th></th>
+    </tr>
+  </thead>
+	<tbody>
+		<tr>
+      <td>当月余额</td>
+			<td colspan="2"></td>
+    </tr>
+		<tr>
+			<td>当月留存</td>
+			<td>当月返还</td>
+			<td>当月扣减</td>
+		</tr>
+	</tbody>
+	<thead>
+    <tr>
+      <th></th>
+      <th>薪酬调整</th>
+			<th></th>
+    </tr>
+  </thead>
+	<tbody>
+		<tr>
+      <td>调整发</td>
+			<td></td>
+			<td>调整扣</td>
+			<td></td>
+    </tr>
+	</tbody>
+</table>

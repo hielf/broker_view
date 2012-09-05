@@ -5,7 +5,7 @@ class BrokerindicesController < ApplicationController
   def broker_index
     @brokerindex =  getbrokerindex(params[:broker_id], params[:id])
   end
-  
+
   private
   
   def getbrokerindex(broker, type)
