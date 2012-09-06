@@ -6,9 +6,9 @@
 					薪酬报告 #<%=t.month_id%>
 				</a>
 			</div>
-			<div id="collapse<%=t.month_id%>" class="accordion-body collapse" <% if @salary_months.first.month_id == t.month_id %>style="height: auto;" <% end %>>
+			<div id="collapse<%=t.month_id%>" class="collapse in" <% if @salary_months.first.month_id == t.month_id %>style="height: auto;"<% else %>style="height: 0px;"<% end %>>
 				<div class="accordion-inner">
-					<%= render 'brokers/brokertable3' %>
+					<%= render :partial => 'broker_salary', :locals => { :object => broker_salary(t.month_id) } %>
 				</div>
 			</div>
 		</div>

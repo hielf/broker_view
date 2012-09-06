@@ -1,0 +1,90 @@
+<table class="table table-hover">
+ 	<!-- <caption><h3>薪酬报告</h3></caption> -->
+  <thead>
+    <tr>
+      <th></th>
+      <th>业绩收入</th>
+			<th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>总净佣金:</td>
+			<td colspan="5"><%= @broker_salary.find_by_indextype(2001) && @broker_salary.find_by_indextype(2001).occursum || 0 %></td>
+    </tr>
+		<tr>
+			<td>一般净佣金:</td>
+			<td><%= @broker_salary.find_by_indextype(2002) && @broker_salary.find_by_indextype(2002).occursum || 0 %></td>
+			<td>融资融券产品净佣金:</td>
+			<td><%= @broker_salary.find_by_indextype(2003) && @broker_salary.find_by_indextype(2003).occursum || 0 %></td>
+			<td>报价回购销售利润:</td>
+			<td><%= @broker_salary.find_by_indextype(2004) && @broker_salary.find_by_indextype(2004).occursum || 0 %></td>
+		</tr>
+		<tr>
+      <td>总成交量:</td>
+			<td colspan="5"><%= @broker_salary.find_by_indextype(2005) && @broker_salary.find_by_indextype(2005).occursum || 0 %></td>
+    </tr>
+		<tr>
+			<td>一般成交量:</td>
+			<td><%= @broker_salary.find_by_indextype(2006) && @broker_salary.find_by_indextype(2006).occursum || 0 %></td>
+			<td>融资融券产品成交量:</td>
+			<td><%= @broker_salary.find_by_indextype(2007) && @broker_salary.find_by_indextype(2007).occursum || 0 %></td>
+			<td>报价回购日均保有量:</td>
+			<td><%= @broker_salary.find_by_indextype(2008) && @broker_salary.find_by_indextype(2008).occursum || 0 %></td>
+		</tr>
+  </tbody>
+	<thead>
+    <tr>
+      <th></th>
+      <th colspan="5">报酬支出</th>
+    </tr>
+  </thead>
+	<tbody>
+		<tr>
+      <td>税前工资:</td>
+			<td colspan="5"><%= @broker_salary.find_by_indextype(2009) && @broker_salary.find_by_indextype(2009).occursum || 0 %></td>
+    </tr>
+		<tr>
+			<td>基本工资:</td>
+			<td><%= @broker_salary.find_by_indextype(2010) && @broker_salary.find_by_indextype(2010).occursum || 0 %></td>
+			<td>佣金提成:</td>
+			<td><%= @broker_salary.find_by_indextype(2011) && @broker_salary.find_by_indextype(2011).occursum || 0 %></td>
+			<td>产品销售奖励:</td>
+			<td><%= @broker_salary.find_by_indextype(2012) && @broker_salary.find_by_indextype(2012).occursum || 0 %></td>
+		</tr>
+	</tbody>
+	<thead>
+    <tr>
+      <th></th>
+      <th colspan="5">风险金</th>
+    </tr>
+  </thead>
+	<tbody>
+		<tr>
+      <td>当月余额:</td>
+			<td colspan="5"><%= @broker_salary.find_by_indextype(2013) && @broker_salary.find_by_indextype(2013).occursum || 0 %></td>
+    </tr>
+		<tr>
+			<td>当月留存:</td>
+			<td><%= @broker_salary.find_by_indextype(2014) && @broker_salary.find_by_indextype(2014).occursum || 0 %></td>
+			<td>当月返还:</td>
+			<td><%= @broker_salary.find_by_indextype(2015) && @broker_salary.find_by_indextype(2015).occursum || 0 %></td>
+			<td>当月扣减:</td>
+			<td><%= @broker_salary.find_by_indextype(2016) && @broker_salary.find_by_indextype(2016).occursum || 0 %></td>
+		</tr>
+	</tbody>
+	<thead>
+    <tr>
+      <th></th>
+      <th colspan="5">薪酬调整</th>
+    </tr>
+  </thead>
+	<tbody>
+		<tr>
+      <td>调整发:</td>
+			<td colspan="2"><%= @broker_salary.find_by_indextype(2017) && @broker_salary.find_by_indextype(2017).occursum || 0 %></td>
+			<td>调整扣:</td>
+			<td colspan="2"><%= @broker_salary.find_by_indextype(2017) && @broker_salary.find_by_indextype(2017).occursum || 0 %></td>
+    </tr>
+	</tbody>
+</table>

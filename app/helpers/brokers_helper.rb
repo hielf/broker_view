@@ -24,4 +24,8 @@ module BrokersHelper
     end
   end
   
+  def broker_salary(month)
+    @broker = Broker.find(params[:id])
+    @broker_salary = @broker.brokerindices.where(:month_id => month)
+  end
 end
