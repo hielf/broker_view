@@ -4,7 +4,7 @@
 				位于 <%= @department.location %> 
 			<% end %>
 			<% if !@department.supervisor.nil? %>
-				负责人 <%= @department.supervisor %> 
+				负责人 <%= mail_to 'test@test.org', @department.supervisor %> 
 			<% end %>
 			<% if !@department.phone.nil? %>
 				联系电话 <%= @department.phone %>

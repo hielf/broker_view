@@ -1,9 +1,9 @@
 <% if signed_in? %>
 	<div class="hero-unit">
-		<div class="page-header">
+		<div class="page-header" data-spy="scroll">
 		<h1>欢迎您, <%= current_user.name %></h1>
 		</div>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>公告：营销综合管理视图ver.1657是为特定客户所开发的业务快速访问通道。通过该项目，能够使得销售交易总部及辖属分支机构执行者直观、快速地接触到逐级管理对象的最新业务进展。也能够帮助各级管理者把握和分析历史情况，从而对新的管理部署做出调整而设计的数据反馈及决策支持系统。拥有低成本、高可靠性和易用性的显著特点。在该项目的基础上，还能够实现对外围系统的准入认证、数据封装对接功能，可以有效减少信息系统开发及运行维护的压力，帮助客户专注业务创新和管理创新。以轻量化和网络化体系构建业务和管理信息资源，达成“数据即服务”的目标。</p>
 			</br>
 	</div>
 
@@ -13,9 +13,12 @@
 	<div class="page-header">
 	<h1>欢迎您</h1>
 	</div>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<p>公告：营销综合管理视图ver.1657是为特定客户所开发的业务快速访问通道。通过该项目，能够使得销售交易总部及辖属分支机构执行者直观、快速地接触到逐级管理对象的最新业务进展。也能够帮助各级管理者把握和分析历史情况，从而对新的管理部署做出调整而设计的数据反馈及决策支持系统。拥有低成本、高可靠性和易用性的显著特点。在该项目的基础上，还能够实现对外围系统的准入认证、数据封装对接功能，可以有效减少信息系统开发及运行维护的压力，帮助客户专注业务创新和管理创新。以轻量化和网络化体系构建业务和管理信息资源，达成“数据即服务”的目标。</p>
 		</br>
-		<p><%= link_to "现在注册", signup_path, :class => "btn btn-primary btn-large" %></p>
+		<p>
+			 <%= link_to "现在注册", signup_path, :class => "btn btn-primary btn-large btn-block" %>
+			 <%= link_to "获取帮助", about_path, :class => "btn btn-large btn-block" %>
+		</p>
 	</div>
 
 
