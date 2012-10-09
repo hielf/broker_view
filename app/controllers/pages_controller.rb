@@ -18,4 +18,12 @@ class PagesController < ApplicationController
   def help
     @title = "帮助"
   end
+  
+  def brokernew
+    @title = "营销人员开户"
+  end
+  
+  def todolist
+    @title = "代办事项"
+  end
 end

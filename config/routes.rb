@@ -34,6 +34,9 @@ Htbroker::Application.routes.draw do
   match '/signin',  :to => 'sessions#new'
   match '/signout', :to => 'sessions#destroy'  
   
+  match '/brokernew', :to => 'pages#brokernew'
+  match '/todolist', :to => 'pages#todolist'
+  
   # match 'categories' => 'categories#show', :via => :get
   
   # The priority is based upon order of creation:

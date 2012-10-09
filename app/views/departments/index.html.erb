@@ -1,6 +1,6 @@
 <!-- 全公司收入柱状图 全公司团队人数饼图 全公司团队收入报酬 全公司新增客户数 -->
 
-<div class="span2" style="height: 1024px;">
+<div class="span2">
 	<div class="sidebar-nav">
 		<ul class="nav nav-list well">
 		  <li class="nav-header">
@@ -17,15 +17,33 @@
 		<%= render 'departments/indexview' %>
 	</div>
 </div>
-<div class="span5">
-  <%= render 'departments/showchart1' %>
-</div>
-<div class="span5">
-	<%= render 'departments/showchart2' %>
-</div>
-<div class="span5">
-	<%= render 'departments/showchart3' %>
-</div>
-<div class="span5">
-	<%= render 'departments/showchart4' %>
+<div class="row-fluid">
+	<div class="span5 pull-right">
+		<div class="well">
+			<div id="chart_1">
+				<%= render 'departments/showchart1' %>
+			</div>
+		</div>
+	</div>
+	<div class="span5">
+		<div class="well">
+			<div id="chart_2">
+				<%= render 'departments/showchart2' %>
+			</div>
+		</div>
+	</div>
+	<div class="span5 pull-right">
+		<div class="well">
+			<div id="chart_3">
+				<%= render 'departments/showchart3' %>
+			</div>
+		</div>
+	</div>
+	<div class="span5 pull-right">
+		<div class="well">
+			<div id="chart_4">
+				<%= render 'departments/showchart4' %>
+			</div>
+		</div>
+	</div>
 </div>
