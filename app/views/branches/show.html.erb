@@ -1,19 +1,25 @@
 <%= render "branches/sidebar_brokertype" %>
 	
 <div class="span10">
-	<%= render 'branches/contentarea1' %>
+	<div class="row-fluid">
+		<div class="span12">
+			<%= render 'branches/contentarea1' %>
+		</div>
+	</div>
+	<div class="row-fluid">
+		<div class="span6">
+	  	<%= render 'branches/showchart1' %>
+		</div>
+		<div class="span6">
+			<%= render 'branches/showchart2' %>
+		</div>
+	</div>
+	<div class="row-fluid">
+		<div class="span6">
+			<%= render 'branches/showchart3' %>
+		</div>
+		<div class="span6">
+			<%= render 'branches/showchart4' %>
+		</div>	
+	</div>
 </div>
-
-<div class="span5">
-  <%= render 'branches/showchart1' %>
-</div>
-<div class="span5">
-	<%= render 'branches/showchart2' %>
-</div>
-<div class="span5">
-	<%= render 'branches/showchart3' %>
-</div>
-<div class="span5">
-	<%= render 'branches/showchart4' %>
-</div>
-
