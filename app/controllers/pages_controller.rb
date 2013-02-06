@@ -19,11 +19,8 @@ class PagesController < ApplicationController
     @title = "帮助"
   end
   
-  def brokernew
-    @title = "营销人员开户"
-  end
-  
-  def todolist
+  def todo
     @title = "代办事项"
+    @date = params[:date] ? Date.parse(params[:date]) : Date.today
   end
 end

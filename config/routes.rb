@@ -34,8 +34,7 @@ Htbroker::Application.routes.draw do
   match '/signin',  :to => 'sessions#new'
   match '/signout', :to => 'sessions#destroy'  
   
-  match '/brokernew', :to => 'pages#brokernew'
-  match '/todolist', :to => 'pages#todolist'
+  match '/todo',    :to => 'pages#todo'  
   
   # match 'categories' => 'categories#show', :via => :get
   
